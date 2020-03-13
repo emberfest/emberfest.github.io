@@ -16,6 +16,15 @@ body {
 
 p {
   font-size: 18px;
+  color: #000000;
+}
+
+.video {
+  h4, h5, h6 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #000000;
+  }
 }
 
 .section {
@@ -48,11 +57,14 @@ p {
   }
 
   &.alternate {
-    background: #30adc3;
+    background: #A9F5D0;
 
     a {
-      color: #bdccd4;
+      color: #FF4000;
       font-weight: bold;
+    }
+    h4 {
+      color: #FF4000;
     }
 
     .speaker-list {
@@ -116,6 +128,7 @@ p {
     }
   }
 }
+
 
 .section-2017 {
   background: #f2f2f1;
@@ -214,7 +227,6 @@ p {
 .title {
   padding: 0px 0 0px 0;
   text-align: center;
-  position: relative;
 
   tito-button {
     position: absolute;
@@ -225,11 +237,11 @@ p {
 
   .title-img {
     display: block;
-    background-image: url(/images/website-header.png);
+    background-image: url(/images/emberfest.png);
     background-size: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     min-height: 100vh;
   }
 }
@@ -639,7 +651,7 @@ hr {
 
     .title-img {
       display: block;
-      background-image: url(/images/website-header.png);
+      background-image: url(/images/emberfest.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -709,7 +721,7 @@ hr {
   .title {
     .title-img {
       display: block;
-      background-image: url(/images/website-header.png);
+      background-image: url(/images/emberfest.png);
       background-size: 100% 100%;
       background-repeat: no-repeat;
       background-position: center;
