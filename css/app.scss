@@ -27,6 +27,25 @@ p {
   }
 }
 
+.video-img {
+  display: block;
+  background-image: url(/2019/images/emberfestimpressions.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 50vh;
+}
+
+.impressions-img {
+  display: block;
+  background-image: url(/2019/images/emberfest2019.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 50vh;
+}
+
+
 .section {
   background: #f2f2f1;
   color: #fff;
@@ -38,10 +57,11 @@ p {
   }
 
   &.speakers {
-    background-color: #f2f2f1;
+    background-color: #CEF6D8;
     color: black !important;
 
     h4 {
+      text-align: center;
       margin-bottom: 1em;
     }
 
@@ -57,14 +77,15 @@ p {
   }
 
   &.alternate {
-    background: #A9F5D0;
+    background: #c03c1b;
+    color: #FFFFFF;
 
     a {
-      color: #FF4000;
+      color: #FFFFFF;
       font-weight: bold;
     }
     h4 {
-      color: #FF4000;
+      color: #000000;
     }
 
     .speaker-list {
