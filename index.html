@@ -3,13 +3,13 @@ layout: default
 title: EmberFest
 ---
 <!-- Begin header -->
-<div class="header header__landing-page">
+<div class="header header__landing-page header__index-page">
   <h3 class="header__pre-title"> Europe's Community Ember Conference</h3>
   <div class="header__title"> 
     <a href="/">Ember<span class="header__brackets">{% raw %}{{</span>fest<span class="header__brackets">}}{% endraw %}</span></a>
   </div>
   <h3 class="header__date">Sept. 16 + 17, 2021</h3>
-  <button class="button__title">Get your ticket</button>
+  <tito-button event="emberfest/emberfest-2021" class="button__title">Get your tickets</tito-button>
 
 </div> <!-- End header -->
 
@@ -26,7 +26,7 @@ title: EmberFest
         <span class="text__highlight">EmberFest</span> is the European Community Ember Conference. If you're looking for updates on the latest and greatest in Ember and Glimmer this is the place to be. <span class="text__highlight">EmberFest</span> is also a great opportunity to get in touch with the European Ember Community (and friends from abroad) and hiring Ember talent.
       </p>
       <p>
-        <span class="text__highlight">In 2021, we're back with a hybrid on-site/virtual event in September 🎉"</span>
+        <span class="text__highlight">In 2021, we're back with a hybrid on-site/virtual event in September 🎉</span>
       </p>
     </div>
   </div>
@@ -41,15 +41,15 @@ title: EmberFest
     <div class="laurel-image-right"><img src="/images/laurel-right.svg"></div>
   </div>
   <div class="get-involved__wrapper">
-    <div class="get-involved__items" onclick="window.location='https://twitter.com/emberfest';">
+    <a href="https://twitter.com/emberfest" class="get-involved__items">
       <div class="get-involved__image"><img src="/images/twitter.svg"></div>
-      <div class="paragraphBase"><a href="https://twitter.com/emberfest">Follow us on Twitter!</a></div>
-    </div>
+      <div class="paragraphBase">Follow us on Twitter!</div>
+    </a>
 
-    <div class="get-involved__items" onclick="window.location='#mailing-list';">
+    <a href="#mailing-list" class="get-involved__items">
       <div class="get-involved__image"><img src="/images/mailing.svg"></div>
-      <div class="paragraphBase"><a href="#mailing-list"> Sign up to our mailing list </a></div>
-    </div>
+      <div class="paragraphBase">Sign up to our mailing list</div>
+    </a>
   </div>
 </div> <!-- End Get involved section-->
 
@@ -73,7 +73,6 @@ title: EmberFest
     <div class="pre-heading__text"><h3>Past Speakers</h3></div>
     <div class="laurel-image-right"><img src="/images/laurel-right.svg"></div>
   </div>
-  <!-- <div class="paragraphLarge"> Fusce facilisis sagittis felis, ut rhoncus nisl sagittis in. Aliquam cursus urna sapien, ut scelerisque justo pellentesque quis. Maecenas felis nulla, sagittis sed hendrerit sit amet, interdum a odio. </div> -->
   <div class="past_speakers_wrapper">
     <div class="past_speakers_item">
       <img class="speaker_image" src="2019/images/godfrey-chan.jpg" alt="Godfrey Chan">
