@@ -278,7 +278,6 @@ h4 {
 .get-involved {
   background-color: var(--linen);
   padding-bottom: 60px;
-  background-color: var(--linen);
   background-image: url('/images/decorative-element.svg');
   background-position: right top -80px;
   background-size: 149.94px 149.94px;
@@ -350,7 +349,6 @@ h4 {
 
 .past-speakers {
   background-color: var(--linen);
-  margin-bottom: var(--space-xl);
   position: relative;
   border-radius: 0px;
 }
@@ -1113,6 +1111,63 @@ hr {
       width: 190px;
      }
   }
+
+  .venue-bg {
+    .row{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 0px 463px 157px 0px;
+      width: 597px;
+      height: 620px;
+      background-color: var(--linen);
+      border-radius: 0px;
+    }
+
+    .location{
+      margin: auto 106px auto 70px;
+      h3 {
+       width: 350px;
+       height: 44px;   
+       text-align: left;
+       line-height: 43.75px;
+       margin-top: 128px;
+      }
+
+      p {
+       width: 603px;
+       height: 132px;
+       color: rgb(0, 0, 0);
+       font-size: 22px;
+       line-height: 33px;
+       margin-bottom: 101px;
+      }
+
+      a {
+       color: black;
+       text-decoration: none;
+      }
+
+      #map-canvas {
+        width: 644px;
+        height: 310px;
+        border-radius: 0px;
+      }
+   }
+
+    .venue-2021-img {
+      margin: 128px auto auto 64px;
+      flex-shrink: 0;
+      width: 597px;
+      height: 620px;
+      background: url(/images/Palazzo_Brancaccio.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: left;
+    }
+
+  }
+
   .sponsors {
     margin: auto var(--space-xl);
 
