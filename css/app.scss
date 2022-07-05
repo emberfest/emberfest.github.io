@@ -431,7 +431,82 @@ section {
     }
   }
 
+  &.locations {
+    background-color: #2a3b90;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+
+    @include tablet {
+      padding-bottom: 6.25rem;
+      padding-top: 6.25rem;
+    }
+
+    .tb_padding:last-child {
+      padding-bottom: 0;
+      padding-top: 80px;
+
+      @include tablet {
+        padding-top: 200px;
+      }
+    }
+
+    .pre-heading__text,
+    .content-text {
+      color: #fff8ee;
+      text-align: left;
+    }
+
+    .content-text {
+      margin-top: 2.25rem;
+      font-size: 1rem;
+      @media screen and (min-width: 768px) {
+        font-size: 1.5rem;
+      }
+    }
+
+    .venue {
+      > .container {
+        display: flex;
+        row-gap: 33px;
+        margin: auto;
+        padding-left: 12vw;
+        padding-right: 12vw;
+        flex-wrap: wrap;
+
+        @include tablet {
+          justify-content: space-between;
+          column-gap: 1.5rem;
+          flex-wrap: nowrap;
+        }
+      }
+
+      &-img {
+        img {
+          border: 2px solid #f9ead4;
+          object-fit: cover;
+          min-height: 100%;
+        }
+      }
+
+      .location {
+        @include tablet {
+          max-width: 48%;
+        }
+
+        .map-block {
+          margin-top: 38px;
+        }
+      }
+    }
+  }
+
   &.past-sponsors {
+    padding-top: 80px;
+
+    @include tablet {
+      padding-top: 100px;
+    }
+
     .row {
       margin-bottom: 60px;
       display: flex;
