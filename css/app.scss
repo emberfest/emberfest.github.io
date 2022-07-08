@@ -286,6 +286,14 @@ section {
   }
 
   &.schedule {
+    .schedule-wrapper.schedule {
+      background: linear-gradient(#fff8ee, #f3a2a2);
+
+      .tb_padding {
+        padding-top: 4rem;
+      }
+    }
+
     .title {
       margin-bottom: 2rem;
     }
@@ -308,7 +316,8 @@ section {
       }
     }
 
-    .timetable {
+    .timetable,
+    .timetable.full-timetable {
       h5,
       h6 {
         color: #2a3b90;
@@ -366,7 +375,8 @@ section {
         }
       }
 
-      table {
+      table,
+      .full-timetable.table.schedule-table {
         margin-top: 5rem;
         width: 100%;
       }
