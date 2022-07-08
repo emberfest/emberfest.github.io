@@ -465,36 +465,61 @@ section {
     }
 
     .venue {
-      > .container {
-        display: flex;
-        row-gap: 33px;
-        margin: auto;
-        padding-left: 12vw;
-        padding-right: 12vw;
-        flex-wrap: wrap;
+      .mobile-container {
+        display: block;
+        padding-right: 2rem;
+        padding-left: 2rem;
 
-        @include tablet {
-          justify-content: space-between;
-          column-gap: 1.5rem;
-          flex-wrap: nowrap;
+        .pre-heading__text {
+          margin-bottom: 2.5rem;
         }
-      }
-
-      &-img {
         img {
           border: 2px solid #f9ead4;
           object-fit: cover;
           min-height: 100%;
+          margin: 40px 0 40px 0;
         }
       }
 
-      .location {
-        @include tablet {
-          max-width: 48%;
+      .container {
+        display: none;
+      }
+
+      @include tablet {
+        .mobile-container {
+          display: none;
+        }
+        > .container {
+          display: flex;
+          row-gap: 33px;
+          margin: auto;
+          padding-left: 12vw;
+          padding-right: 12vw;
+          flex-wrap: wrap;
+
+          @include tablet {
+            justify-content: space-between;
+            column-gap: 1.5rem;
+            flex-wrap: nowrap;
+          }
         }
 
-        .map-block {
-          margin-top: 38px;
+        &-img {
+          img {
+            border: 2px solid #f9ead4;
+            object-fit: cover;
+            min-height: 100%;
+          }
+        }
+
+        .location {
+          @include tablet {
+            max-width: 48%;
+          }
+
+          .map-block {
+            margin-top: 38px;
+          }
         }
       }
     }
