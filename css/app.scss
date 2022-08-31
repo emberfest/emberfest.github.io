@@ -446,6 +446,7 @@ section {
             font-size: 1rem;
             grid-column-end: 3;
             grid-column-start: 1;
+            margin-top: 1rem;
           }
           p {
             font-size: 0.8rem;
@@ -465,7 +466,7 @@ section {
         }
 
         p {
-          margin-bottom: 1.2rem;
+          margin: 0 0 0.5rem;
           text-align: left;
           font-size: 1rem;
           line-height: 1.5rem;
