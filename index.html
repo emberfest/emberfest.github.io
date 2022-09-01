@@ -2,6 +2,7 @@
 layout: default
 title: EmberFest
 enable_sponsors: true
+enable_schedule: false
 ---
 
 {% include main_header.html %}
@@ -50,7 +51,9 @@ enable_sponsors: true
   <section class="speakers">
     <div class="content">
       <h3 class="divider">Speakers</h3>
+      {% if page.enable_schedule != true %}
       <p>While you wait for the full schedule, we are happy to share some speakers that will join us this year:</p>
+      {% endif %}
       <ul>
         <li>
           <img src="/images/speakers/edward-faulkner.jpeg" class="photo" />
