@@ -175,19 +175,7 @@
   talk: "Panel: The Future of Ember"
   id: panel-future-of-ember
   image_extension: jpg
-  description: <p>
-    To end the conference, we'll be holding a panel to discuss the future of Ember. We'll be talking about the
-    most
-    important current initiatives that will shape Ember's future as well as a longer term outlook. We'll discuss
-    where web development is going in general and where Ember fits into that.
-    </p>
-    <p><strong class="content-strong">Panelists</strong></p>
-    <ul>
-    <li><strong class="content-strong">Tom Dale</strong>, LinkedIn</li>
-    <li><strong class="content-strong">Preston Sego</strong>, CrowdStrike</li>
-    <li><strong class="content-strong">Ed Faulkner</strong>, Cardstack</li>
-    <li><strong class="content-strong">Chris Manson</strong>, simplabs</li>
-    </ul>
+  description: 
 
 - time: 17:00 -
   isBreakTime: true
