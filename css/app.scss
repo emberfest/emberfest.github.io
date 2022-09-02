@@ -426,7 +426,6 @@ section {
       }
 
       .speaker-profile {
-        margin-bottom: 10px;
         @media only screen and (min-width: 576px) {
           display: grid;
           column-gap: 10px;
@@ -448,7 +447,7 @@ section {
             grid-column-start: 1;
             margin-top: 1rem;
           }
-          p {
+          p, a {
             font-size: 0.8rem;
           }
         }
