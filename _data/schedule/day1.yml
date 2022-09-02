@@ -131,23 +131,10 @@
   text: Snack break
 
 - time: 15:30 - 16:00
-  talk: "Panel: Ember at Scale"
-  id: panel-ember-at-scale
+  talk: "Panel: Data in Ember"
+  id: panel-data-in-ember
   image_extension: "jpg"
-  description: <p>
-    In this panel, we'll be talking about working with large scale Ember applications. Engineers from five
-    well-known companies using Ember will share their experiences and challenges they run into. We'll be
-    discussing strategies to apply when working with large scale Ember apps as well as how Ember supports
-    those use cases (and where it might fall short)
-    </p>
-    <p><strong class="content-strong">Panelists</strong></p>
-    <ul>
-    <li><strong class="content-strong">Pat O'Callaghan</strong>, Intercom</li>
-    <li><strong class="content-strong">Jamie White</strong>, HashiCorp</li>
-    <li><strong class="content-strong">Melanie Sumner</strong>, HashiCorp, previously LinkedIn</li>
-    <li><strong class="content-strong">Jan Buschtöns</strong>, CLARK</li>
-    <li><strong class="content-strong">Chris Krycho</strong>, LinkedIn</li>
-    </ul>
+  description:
 
 - time: 16:15 - 16:45
   speaker: Yehuda Katz
