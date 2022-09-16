@@ -532,7 +532,7 @@ section {
         }
       }
 
-      img.photo {
+      img.photo, .mainmatter.logo{
         display: inline-block;
         height: 128px;
         width: 128px;
@@ -543,6 +543,17 @@ section {
           height: 190px;
           width: 190px;
         }
+      }
+      
+      .mainmatter.logo {
+        display: flex;
+        align-items: center;
+      }
+
+      img.photo.logo{
+        width: auto;
+        height: auto;
+        aspect-ratio: auto;
       }
 
       img.logo {
