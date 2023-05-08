@@ -1,0 +1,146 @@
+---
+---
+
+@import "2022/reset";
+@import "variables";
+@import "mixins";
+
+@font-face {
+  font-family: Tomkin Condense Regular;
+  src: url(/css/fonts/TomkinCondense-Regular.otf);
+}
+
+@font-face {
+  font-family: Tomkin Condense Medium;
+  src: url(/css/fonts/TomkinCondense-Medium.otf);
+}
+
+@font-face {
+  font-family: TT Travels Next Trial Variable;
+  src: url(/css/fonts/TT-Travels-Next-Trial-Variable.ttf);
+}
+
+body {
+  background-color: #fdffd6;
+  background-position: top center;
+  background-image: url(../images/backgrounds/background_1-grey.svg);
+}
+
+p {
+  color: $dark_blue;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  font-family: "Tomkin Condense Regular", sans-serif;
+}
+
+.sidepages__header {
+  gap: 60px;
+  display: flex;
+  padding: 40px 0 100px 0;
+  align-items: center;
+  justify-content: center;
+
+  .logo_horizontal {
+    display: none;
+  }
+
+  @include mobile {
+    gap: 20px;
+    padding: 10px 8px 50px;
+
+    .logo_vertical {
+      display: none;
+    }
+
+    .logo_horizontal {
+      display: block;
+    }
+
+    .logo_and_date {
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .location::before {
+      content: "/";
+      padding: 0 4px;
+    }
+  }
+
+  img.logo_vertical {
+    height: 9rem;
+  }
+
+  img.bull {
+    height: 11.5rem;
+
+    @include mobile {
+      height: 5.8rem;
+    }
+  }
+
+  .date_and_location {
+    display: flex;
+    flex-wrap: wrap;
+    color: $dark_blue;
+    font-size: 2.5rem;
+    max-width: 11.5rem;
+    text-transform: uppercase;
+    font-family: "Tomkin Condense Regular", sans-serif;
+
+    @include mobile {
+      max-width: 14rem;
+      font-size: 1.3rem;
+      line-height: 1.7rem;
+    }
+  }
+}
+
+.content {
+  margin: auto;
+  max-width: 70%;
+
+  @include mobile {
+    margin: 0 27px;
+    max-width: 100%;
+  }
+
+  h3 {
+    font-size: 5rem;
+    font-weight: 800;
+    color: $dark_blue;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: "TT Travels Next Trial Variable", sans-serif;
+
+    @include mobile {
+      padding: 0 10px;
+      font-size: 2.875rem;
+      line-height: 2.875rem;
+    }
+  }
+
+  h4 {
+    font-size: 2.5rem;
+    color: $dark_blue;
+    padding: 60px 0 20px 0;
+    font-family: "Tomkin Condense Medium", sans-serif;
+
+    @include mobile {
+      padding: 40px 0;
+    }
+  }
+
+  p:first-of-type {
+    padding-bottom: 100px;
+    @include mobile {
+      padding-bottom: 0;
+    }
+  }
+
+  h4:first-of-type {
+    margin-top: 0;
+  }
+
+}
