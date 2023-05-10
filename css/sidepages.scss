@@ -28,9 +28,14 @@ body {
 
 p {
   color: $dark_blue;
-  font-size: 1.6rem;
-  line-height: 2.1rem;
+  font-size: 1.625rem;
+  line-height: 2.125rem;
   font-family: "Tomkin Condense Regular", sans-serif;
+
+  @include mobile {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+  }
 }
 
 .sidepages__header {
@@ -72,11 +77,11 @@ p {
     height: 9rem;
   }
 
-  img.bull {
-    height: 11.5rem;
+  img.header__image {
+    height: 52px;
 
     @include mobile {
-      height: 5.8rem;
+      height: 25px;
     }
   }
 
@@ -106,6 +111,28 @@ p {
     max-width: 100%;
   }
 
+  h3.cancellation__title {
+    margin-bottom: 20px;
+  }
+
+  .imprint__responsible_info {
+    gap: 40px;
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+    flex-direction: column;
+
+    p:last-of-type {
+      font-size: 2.5rem;
+      line-height: 2.75rem;
+
+      @include mobile {
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+    }
+  }
+
   h3 {
     font-size: 5rem;
     font-weight: 800;
@@ -132,8 +159,8 @@ p {
     }
   }
 
-  p:first-of-type {
-    padding-bottom: 100px;
+  p.conduct__first_paragraph {
+    padding-bottom: 40px;
     @include mobile {
       padding-bottom: 0;
     }
@@ -144,3 +171,4 @@ p {
   }
 
 }
+
