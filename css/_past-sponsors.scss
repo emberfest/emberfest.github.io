@@ -8,7 +8,7 @@
   padding-top: 100px;
   padding-bottom: 60px;
   margin-top: -50px;
-  box-shadow: 0 0 50px 0 #E8E8E8;
+  box-shadow: 0 0 50px 0 #e8e8e8;
   border-radius: 30px;
   position: relative;
   z-index: 2;
@@ -20,6 +20,8 @@
     padding-bottom: 150px;
     border-radius: 80px;
   }
+
+  --blur-intensity: 4px;
 
   h3 {
     @include responsiveTitle(80%, 80px);
@@ -42,7 +44,7 @@
 
   .past-sponsors-list {
     background: $translucent;
-    @include blurFilter(8px);
+    @include blurFilter(var(--blur-intensity));
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -55,7 +57,7 @@
     @include sm {
       gap: 40px;
     }
-    
+
     @include lg {
       padding: 65px;
       gap: 80px;
@@ -118,7 +120,7 @@
           padding-left: 78px;
           padding-right: 18px;
           background-color: $translucent;
-          @include blurFilter(8px);
+          @include blurFilter(var(--blur-intensity));
           border-radius: 12px;
           height: 100%;
           width: 325px;
