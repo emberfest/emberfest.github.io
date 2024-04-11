@@ -1,32 +1,37 @@
-/* Tomkin Condense */
-@font-face {
-  font-family: "TomkinCondense-Medium";
-  font-style: medium;
-  font-weight: 700;
-  font-display: swap;
-  src: url(/css/fonts/TomkinCondense-Medium.woff2) format("woff2");
+body {
+font-family: brother-1816-printed, sans-serif;
+font-weight: 700;
+font-style: normal;
+color: var($black);
 }
 
-@font-face {
-  font-family: "TomkinCondense-Regular";
-  font-style: regular;
-  font-weight: 700;
-  font-display: swap;
-  src: url(/css/fonts/TomkinCondense-Regular.woff2) format("woff2");
+h1, h2, h3 {
+font-weight: 700;
 }
 
-@font-face {
-  font-family: "TomkinCondense-Thin";
-  font-style: regular;
-  font-display: swap;
-  src: url(/css/fonts/TomkinCondense-Thin.woff2) format("woff2");
+h1 {
+  font-size: 8.75rem;
 }
 
-/* TT Travels Next Trial Variable */
+h2 {
+  font-size: 5rem;
 
-@font-face {
-  font-family: TT Travels Next Trial Variable Extra Bold;
-  font-style: regular;
-  font-display: swap;
-  src: url(/css/fonts/TT-Travels-Next-ExtraBold.ttf) format("truetype");
+  .emberfest {
+    font-size: 7.5rem;
+  }
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+h4 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
 }
