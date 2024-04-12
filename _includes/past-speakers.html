@@ -2,22 +2,30 @@
   <h3 class="mb-9">Past Speakers</h3>
   <ul class="past-speakers-list">
     {% for speaker in site.data.past-speakers %}
-    <li class="speaker">
-      <img
+      <li class="speaker">
+        <img
         class="avatar"
         alt="{{ speaker.name }} avatar"
         src="/images/past-speakers/{{ speaker.avatar }}"
-      />
-      <div class="speaker-info">
-        <h5>{{ speaker.name }}</h5>
-        <div class="speaker-links">
-          <a class="icon-link twitter" href="{{ speaker.twitter }}">
-          </a>
-          <a class="icon-link external-link" href="{{ speaker.web }}">
-          </a>
+/>
+        <div class="speaker-info">
+          <h5>{{ speaker.name }}</h5>
+          <ul class="speaker-links">
+            <li>
+              <a
+        href="{{ speaker.web }}"
+        target="_blank"
+        rel="noopener noreferrer" class="btn-icon"><img src="/images/icons/link.svg" alt="link icon"/></a>
+            </li>
+            <li>
+              <a
+        href="{{ speaker.twitter }}"
+        target="_blank"
+        rel="noopener noreferrer" class="btn-icon"><img src="/images/icons/twitter.svg" alt="Mastodon icon"/></a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </li>
+      </li>
     {% endfor %}
   </ul>
 </section>

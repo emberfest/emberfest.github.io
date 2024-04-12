@@ -1,7 +1,22 @@
 header {
+  padding: 1rem 0;
+}
+
+.header-links {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
   align-items: end;
   gap: 1rem;
-  padding: 1rem 0;
+  text-align: right;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  column-gap: 8rem;
 }
