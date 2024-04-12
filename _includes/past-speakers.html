@@ -1,5 +1,5 @@
-<section id="past-speakers" class="past-speakers container">
-  <h3>Past Speakers</h3>
+<section id="past-speakers" class="past-speakers container mb-16">
+  <h3 class="mb-9">Past Speakers</h3>
   <ul class="past-speakers-list">
     {% for speaker in site.data.past-speakers %}
     <li class="speaker">
@@ -9,7 +9,7 @@
         src="/images/past-speakers/{{ speaker.avatar }}"
       />
       <div class="speaker-info">
-        <p>{{ speaker.name }}</p>
+        <h5>{{ speaker.name }}</h5>
         <div class="speaker-links">
           <a class="icon-link twitter" href="{{ speaker.twitter }}">
           </a>

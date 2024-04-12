@@ -1,4 +1,4 @@
-<section id="stay-up-to-date" class="stay-up-to-date container mw-lg">
+<section id="stay-up-to-date" class="stay-up-to-date container mw-lg mb-16">
 <h2 class="">Stay up to date with <span class="emberfest">{% raw %}Ember{{fest}}{% endraw %}</span></h2>
 
   <form
@@ -8,6 +8,7 @@
     target="_blank"
     novalidate
   >
+    <div class="input-wrap mb-9 mt-9">
     <label for="email">Email</label>
     <input
       type="email"
@@ -18,28 +19,33 @@
       autocomplete="email"
       required
     />
+    </div>
 
+<div class="input-wrap mb-9">
     <label for="name">Full Name</label>
     <input
       type="text"
       id="name"
       value=""
       name="MMERGE3"
-      placeholder="Jonh Bull"
+      placeholder="John Bah"
       autocomplete="name"
       required
     />
+    </div>
 
+<div class="input-wrap mb-9">
     <label for="country">Country</label>
     <input
       type="text"
       id="country"
       name="MMERGE5"
-      placeholder="U.S.A"
+      placeholder="Country"
       autocomplete="country"
       required
     />
+    </div>
 
-    <button class="button" type="submit">Subscribe</button>
+    <button class="btn-primary" type="submit">Subscribe</button>
   </form>
 </section>

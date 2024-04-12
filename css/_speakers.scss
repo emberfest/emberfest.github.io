@@ -12,9 +12,23 @@
   justify-content: center;
 }
 
+.speaker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
 .avatar {
   width: 15rem;
   height: 15rem;
   flex-shrink: 0;
   clip-path: circle();
+}
+
+.speaker-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
 }

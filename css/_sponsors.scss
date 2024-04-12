@@ -4,11 +4,15 @@
   align-items: center;
 }
 
+.sponsor-section-wrapper {
+  width: 100%;
+}
+
 .sponsors-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr) );
   justify-items: center;
   align-items: center;
   gap: 5rem;
+  width: 100%;
 }
