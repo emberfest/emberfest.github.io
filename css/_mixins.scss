@@ -44,19 +44,25 @@
 }
 
 @mixin small-mobile {
+  @media only screen and (max-width: 490px) {
+    @content;
+  }
+}
+
+@mixin xs-mobile {
   @media only screen and (max-width: 400px) {
     @content;
   }
 }
 
 @mixin mobile {
-  @media only screen and (max-width: 897px) {
+  @media only screen and (max-width: 610px) {
     @content;
   }
 }
 
 @mixin tablet {
-  @media only screen and (max-width: 1100px) {
+  @media only screen and (max-width: 800px) {
     @content;
   }
 }
