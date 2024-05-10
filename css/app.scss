@@ -17,11 +17,11 @@
 @import "header";
 
 html {
-  background-color: #6E9075;
+  background-color: #6e9075;
 }
 
 body {
-  background-color: $beige
+  background-color: $beige;
 }
 
 a:hover {
@@ -111,4 +111,8 @@ $spacers: (
   }
 }
 
-
+.mobile-75 {
+  @include mobile {
+    transform: scale(0.75);
+  }
+}
