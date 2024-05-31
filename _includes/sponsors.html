@@ -1,12 +1,12 @@
 <section id="sponsors" class="sponsors container mb-16">
- <img class="mb-5 mobile-75" src="/images/large.svg" alt="" />
-	<h3 class="mb-9">Our Sponsors</h3>
+  <img class="mb-5 mobile-75" src="/images/large.svg" alt="" />
+  <h3 class="mb-9">Our Sponsors</h3>
   <div class="sponsor-section-wrapper">
     <ul class="sponsors-list">
       {% for sponsor in site.data.sponsors.sponsors %}
       <li>
         <a href="{{ sponsor.link }}">
-          <img src="/images/sponsors/{{sponsor.logo}}.svg" />
+          <img src="/images/sponsors/{{sponsor.logo}}" />
         </a>
       </li>
       {% endfor %}
