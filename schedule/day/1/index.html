@@ -1,6 +1,5 @@
 ---
 layout: default
-css: sidepages
 title: EmberFest – Schedule day 1
 ---
 
@@ -8,14 +7,22 @@ title: EmberFest – Schedule day 1
 
 {% assign day = site.data.schedule[0] %}
 
-<main>
+<main class="container mb-12">
   <section class="full-schedule-day">
     <div class="title content">
-      <h3 class="day">Schedule<br>{{ day.label }} <span class="date">{{ day.date }}</span></h3>
-      <a class="link-to-other-day button" href="/schedule/day/2">Day 2</a>
+      <div>
+        <h3 class="day">{{ day.label }} Schedule</h3>
+        <h4 class="date">{{ day.date }}</h4>
+      </div>
+      <a
+            class="link-text"
+            href="../2"
+            alt="Day 2"
+            >Day 2</a
+          >
     </div>
+    <p class="timezones-note">Times are local, CEST</p>
     <div class="content">
-      <p class="timezones-note">Times are local, CEST</p>
       <table>
         {% for slot in day.slots %}
         <tr>
@@ -46,10 +53,10 @@ title: EmberFest – Schedule day 1
                       {%if speaker.twitter or speaker.url %}
                         <div class="links">
                           {%if speaker.twitter %}
-                            <a href="https://twitter.com/{{speaker.twitter}}" target="_blank" rel="noopener noreferrer"><img alt="twitter icon" src="/images/icons/twitter-blue.svg"></a>
+                            <a class="btn-icon" href="{{speaker.url}}" target="_blank" rel="noopener noreferrer"><img src="/images/icons/link.svg" alt="link icon"/></a>
                           {% endif %}
                           {%if speaker.url %}
-                            <a href="{{speaker.url}}" target="_blank" rel="noopener noreferrer"><img alt="external link icon" src="/images/icons/url.svg"></a>
+                            <a class="btn-icon" href="https://twitter.com/{{speaker.twitter}}" target="_blank" rel="noopener noreferrer"><img src="/images/icons/twitter.svg" alt="Mastodon icon"/></a>
                           {% endif %}
                         </div>
                       {% endif %}

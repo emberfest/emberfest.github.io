@@ -6,75 +6,77 @@
     - time: "10:00&mdash;10:30"
       label: "Talk title"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh.</p>
       speakers:
         - name: "Yehuda Katz"
-          image: "/images/speakers/yehuda-katz.jpg"
+          image: "/images/speakers/yehuda-katz.jpeg"
           twitter: "wycats"
           url: "https://www.linkedin.com/in/yehudakatz/"
           bio: >
-            <p>Speaker bio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh.</p>
     - time: "10:45&mdash;11:15"
       label: "Talk title"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: "Edward Faulkner"
-          image: "/images/speakers/ed-faulkner.png"
+          image: "/images/speakers/edward-faulkner.jpeg"
           twitter: "eaf4"
           url: "https://www.linkedin.com/in/edwardfaulkner/"
           bio: >
-            <p>Speaker bio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "11:30&mdash;12:00"
       label: "Talk title"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: "Melanie Sumner"
           image: "/images/speakers/melanie-sumner.jpg"
           twitter: "a11ymel"
           url: "https://www.linkedin.com/in/melaniesumner"
           bio: >
-            <p>Speaker bio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "12:00&mdash;13:30"
       label: "Lunch"
     - time: "13:30&mdash;14:00"
       label: "Talk title"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: "Preston Sego"
           image: "/images/speakers/l-preston-sego-iii.png"
           twitter: "nullvoxpopuli"
           url: "https://www.linkedin.com/in/lprestonsegoiii/"
+          bio: >
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
     - time: "14:15&mdash;14:45"
       label: "Talk Title"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: ""
           image: ""
           twitter: ""
           url: ""
           bio: >
-            <p>Speaker bio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "15:00&mdash;15:30"
       label: "Lightning talks"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: ""
           image: ""
           twitter: ""
           url: ""
           bio: >
-            <p>Speaker bio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "15:30&mdash;16:00"
       label: "Snack break"
     - time: "16:00&mdash;16:30"
       label: "Marco's Panel"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: "Marco Otte-Witte"
           image: "/images/speakers/marcoow.jpg"
@@ -85,25 +87,25 @@
     - time: "16:45&mdash;17:15"
       label: "Talk title"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: "Mo Fiebiger"
           image: ""
           twitter: ""
           url: ""
           bio: >
-            <p>Speaker bio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "17:30&mdash;18:00"
       label: "Talk title"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: "Kevin Kucharczyk"
           image: ""
           twitter: ""
           url: ""
           bio: >
-            <p>Speaker bio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
 - label: "Day 2"
   date: "Sep 13, Friday"
   slots:
@@ -112,77 +114,77 @@
     - time: "10:00&mdash;10:30"
       label: "Talk title"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: "Chris Manson"
           image: ""
           twitter: ""
           url: ""
           bio: >
-            <p>Speaker bio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "10:45&mdash;11:15"
       label: "Talk title"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: "Davind McNamara"
           image: ""
           twitter: ""
           url: ""
           bio: >
-            <p>Speaker bio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "11:30&mdash;12:00"
       label: "Talk title"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: "Toyib Olamide Ahmed"
           image: ""
           twitter: ""
           url: ""
           bio: >
-            <p>Speaker bio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "12:00&mdash;13:30"
       label: "Lunch"
     - time: "13:30&mdash;14:00"
       label: "Talk title"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: "Bartłomiej Dudzik"
           image: ""
           twitter: ""
           url: ""
           bio: >
-            <p>Speaker bio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "14:15&mdash;14:45"
       label: "Talk Title"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: "Kenigbolo Meya Stephen"
           image: ""
           twitter: ""
           url: ""
           bio: >
-            <p>Speaker bio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "15:00&mdash;15:30"
       label: "Isaac Lee"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
-        - name: ""
+        - name: "Isaac Lee"
           image: ""
           twitter: ""
           url: ""
           bio: >
-            <p>Speaker bio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "15:30&mdash;16:00"
       label: "Snack break"
     - time: "16:00&mdash;16:30"
       label: "Talk Title"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: "Thomas Gossmann"
           image: ""
@@ -193,22 +195,22 @@
     - time: "16:45&mdash;17:15"
       label: "Talk title"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: "Tomek Niezurawski"
           image: ""
           twitter: ""
           url: ""
           bio: >
-            <p>Speaker bio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "17:30&mdash;18:00"
       label: "Talk title"
       description: >
-        <p>Talk description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
         - name: "Leo Euclides"
           image: ""
           twitter: ""
           url: ""
           bio: >
-            <p>Speaker bio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
