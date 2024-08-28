@@ -8,7 +8,7 @@
           <div class="content">
             <h4>{{day.label}}</h4>
             <h4>{{day.date}}</h4>
-            <p class="timezones-note">Times are local, CEST</p>
+            <p class="timezones-note">Times are local, Dublin (IST) time</p>
             <table>
               {% for slot in day.slots %}
                 <tr>
@@ -17,7 +17,7 @@
                   </td>
                   <td class="title">
                     {{slot.label}}
-                    {% if slot.speakers %}
+                    {% if slot.speakers and slot.hideSpeakers != true %}
                       –
                       {% for speaker in slot.speakers %}<span class="speaker">{% if forloop.index > 1 %}, {% endif %}{{speaker.name}}</span>{% endfor %}
                     {% endif %}

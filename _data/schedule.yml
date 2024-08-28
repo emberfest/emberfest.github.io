@@ -4,7 +4,7 @@
     - time: "09:00&mdash;10:00"
       label: "Doors open & Breakfast"
     - time: "10:00&mdash;10:30"
-      label: "Talk title"
+      label: "Opening Keynote"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh.</p>
       speakers:
@@ -15,57 +15,57 @@
           bio: >
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh.</p>
     - time: "10:45&mdash;11:15"
-      label: "Talk title"
+      label: "Ember and Vite - How it works and what it unlocks"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
-        - name: "Edward Faulkner"
-          image: "/images/speakers/edward-faulkner.jpeg"
-          twitter: "eaf4"
-          url: "https://www.linkedin.com/in/edwardfaulkner/"
+        - name: "Chris Manson"
+          image: ""
+          twitter: ""
+          url: ""
           bio: >
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "11:30&mdash;12:00"
-      label: "Talk title"
+      label: "You don't need another library for that: How we've built a Visual Workflow Builder"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
-        - name: "Melanie Sumner"
-          image: "/images/speakers/melanie-sumner.jpg"
-          twitter: "a11ymel"
-          url: "https://www.linkedin.com/in/melaniesumner"
+        - name: "Leo Euclides"
+          image: ""
+          twitter: ""
+          url: ""
           bio: >
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "12:00&mdash;13:30"
       label: "Lunch"
     - time: "13:30&mdash;14:00"
-      label: "Talk title"
+      label: "TBA"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
-        - name: "Preston Sego"
+        - name: "Preston Sego (aka. nullvoxpopuli)"
           image: "/images/speakers/l-preston-sego-iii.png"
           twitter: "nullvoxpopuli"
           url: "https://www.linkedin.com/in/lprestonsegoiii/"
           bio: >
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
     - time: "14:15&mdash;14:45"
-      label: "Talk Title"
+      label: "Composing components with (and without) context"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
-        - name: ""
+        - name: "Kevin Kucharczyk"
           image: ""
           twitter: ""
           url: ""
           bio: >
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "15:00&mdash;15:30"
-      label: "Lightning talks"
+      label: "Scalable Frontend Architecture That Meets Your Business"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
-        - name: ""
+        - name: "Thomas Gossmann"
           image: ""
           twitter: ""
           url: ""
@@ -74,18 +74,19 @@
     - time: "15:30&mdash;16:00"
       label: "Snack break"
     - time: "16:00&mdash;16:30"
-      label: "Marco's Panel"
+      label: "Panel Discussion"
+      hideSpeakers: true
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
-        - name: "Marco Otte-Witte"
+        - name: ""
           image: "/images/speakers/marcoow.jpg"
           twitter: "marcoow"
           url: "https://mainmatter.com"
           bio: >
             <p>Marco has been working in web engineering for about 15 years and has used all kinds of technologies in projects of all kinds of sizes. His company Mainmatter offers custom development, team augmentation, and mentoring. He has worked with Ember for many years and is the original author of ember-simple-auth.</p>
     - time: "16:45&mdash;17:15"
-      label: "Talk title"
+      label: "Accelerate Your Growth: From Novice to Thriving"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
@@ -96,11 +97,11 @@
           bio: >
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "17:30&mdash;18:00"
-      label: "Talk title"
+      label: "TBA"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
-        - name: "Kevin Kucharczyk"
+        - name: "Chris Thoburn (aka. runspired)"
           image: ""
           twitter: ""
           url: ""
@@ -112,29 +113,29 @@
     - time: "09:00&mdash;10:00"
       label: "Doors open & Breakfast"
     - time: "10:00&mdash;10:30"
-      label: "Talk title"
+      label: "TBA"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
-        - name: "Chris Manson"
-          image: ""
-          twitter: ""
-          url: ""
+        - name: "Melanie Sumner"
+          image: "/images/speakers/melanie-sumner.jpg"
+          twitter: "a11ymel"
+          url: "https://www.linkedin.com/in/melaniesumner"
           bio: >
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "10:45&mdash;11:15"
-      label: "Talk title"
+      label: "From Monolith to Monorepo: The life story of a large legacy Ember app"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
-        - name: "Davind McNamara"
+        - name: "David McNamara"
           image: ""
           twitter: ""
           url: ""
           bio: >
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "11:30&mdash;12:00"
-      label: "Talk title"
+      label: "From React JS to Ember: A Newbie's Comparative Journey"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
@@ -147,7 +148,7 @@
     - time: "12:00&mdash;13:30"
       label: "Lunch"
     - time: "13:30&mdash;14:00"
-      label: "Talk title"
+      label: "Memory leak found, now what?"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
@@ -158,7 +159,7 @@
           bio: >
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "14:15&mdash;14:45"
-      label: "Talk Title"
+      label: "Ready vs. Done: Striking the Balance Between Good and Perfect"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
@@ -169,7 +170,7 @@
           bio: >
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "15:00&mdash;15:30"
-      label: "Isaac Lee"
+      label: "Moving Mountains"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
@@ -182,18 +183,9 @@
     - time: "15:30&mdash;16:00"
       label: "Snack break"
     - time: "16:00&mdash;16:30"
-      label: "Talk Title"
-      description: >
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
-      speakers:
-        - name: "Thomas Gossmann"
-          image: ""
-          twitter: ""
-          url: ""
-          bio: >
-            <p></p>
+      label: "Lightning Talks"
     - time: "16:45&mdash;17:15"
-      label: "Talk title"
+      label: "The Art of Data Fetching"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
@@ -204,13 +196,13 @@
           bio: >
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
     - time: "17:30&mdash;18:00"
-      label: "Talk title"
+      label: "Closing Keynote"
       description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p>
       speakers:
-        - name: "Leo Euclides"
-          image: ""
-          twitter: ""
-          url: ""
+        - name: "Edward Faulkner"
+          image: "/images/speakers/edward-faulkner.jpeg"
+          twitter: "eaf4"
+          url: "https://www.linkedin.com/in/edwardfaulkner/"
           bio: >
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla varius elit ac rhoncus. Maecenas pulvinar sapien ac tortor sollicitudin, non facilisis sapien euismod. Praesent vel molestie nibh</p
