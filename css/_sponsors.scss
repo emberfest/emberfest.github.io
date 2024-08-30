@@ -20,7 +20,7 @@
     text-align: center;
   }
 
-  &.sponsor-section-wrapper__dinner-sponsors, &.sponsor-section-wrapper__premier-partners {
+  &.sponsor-section-wrapper__premier-partners {
     img {
       max-width: 25rem;
       max-height: 10rem;
@@ -30,6 +30,14 @@
       }
     }
   }
+
+  &.sponsor-section-wrapper__dinner-sponsors {
+    img {
+      max-width: 10rem;
+      max-height: 5rem;
+    }
+  }
+
 
   &.sponsor-section-wrapper__partners {
     img {
