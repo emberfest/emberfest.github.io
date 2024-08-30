@@ -1,3 +1,5 @@
+@import "mixins";
+
 .sponsors {
   display: flex;
   flex-direction: column;
@@ -10,14 +12,22 @@
   align-items: center;
   width: 100%;
 
+  a {
+    text-align: center;
+  }
+
   h4 {
     text-align: center;
   }
 
-  &.sponsor-section-wrapper__premier-partners {
+  &.sponsor-section-wrapper__dinner-sponsors, &.sponsor-section-wrapper__premier-partners {
     img {
       max-width: 25rem;
       max-height: 10rem;
+
+      @include mobile {
+        width:90%
+      }
     }
   }
 
