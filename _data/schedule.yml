@@ -25,7 +25,7 @@
           url: "https://www.linkedin.com/in/realate/"
           bio: <p>Chris is a developer at at Mainmatter, the creator of Empress and member of the Ember Core Learning Team.</p>
     - time: "11:30&mdash;12:00"
-      label: "You don't need another library for that: How we've built a Visual Workflow Builder"
+      label: "You don’t need another library for that: How we’ve built a Visual Workflow Builder"
       description: >
         <p>This talk showcases the development learnings and struggles of a Visual Workflow Builder, presenting an argument in favor of in-house solutions instead of depending on third party libraries.</p>
       speakers:
@@ -38,7 +38,7 @@
     - time: "12:00&mdash;13:30"
       label: "Lunch"
     - time: "13:30&mdash;14:00"
-      label: "What's going on with Reactivity?"
+      label: "What’s going on with Reactivity?"
       description: >
         <p>The talk dives into the current state of reactivity, reactive libraries, why things are happening, and why it kind of feels like things are in a smidge of disarray.</p>
       speakers:
@@ -72,7 +72,7 @@
     - time: "15:30&mdash;16:00"
       label: "Snack break"
     - time: "16:00&mdash;16:30"
-      label: "What is Ember's pitch? – Open Discussion with Marco Otte-Witte"
+      label: "What is Ember’s pitch? – Open Discussion with Marco Otte-Witte"
       description: >
         <p>
           What makes Ember.js the right choice for certain types of projects, teams, or environments? And in which cases might other frameworks be a better fit? Clearly defining the types of teams and projects that are best suited for Ember, while acknowledging where other solutions may excel, helps the community more effectively advocate for its adoption.
@@ -113,7 +113,7 @@
           twitter: "still_runspired"
           url: "https://runspired.com"
           bio: >
-            <p>Chris is a Senior Staff Software Engineer at AuditBoard and long-term EmberData/WarpDrive team member. He's also a mountain/ultra/trail runner.</p>
+            <p>Chris is a Senior Staff Software Engineer at AuditBoard and long-term EmberData/WarpDrive team member. He’s also a mountain/ultra/trail runner.</p>
 - label: "Day 2"
   date: "Sep 13, Friday"
   slots:
@@ -141,10 +141,10 @@
           url: "https://www.linkedin.com/in/melaniesumner"
           bio: >
             <p>
-              Melanie Sumner began building things for the web in 1997, and after all these years, it's still her favorite thing to do. As the Product Accessibility Lead at HashiCorp, she develops accessibility strategies and offers guidance to the design system and product teams, working collaboratively to deliver inclusive, standards-compliant products.
+              Melanie Sumner began building things for the web in 1997, and after all these years, it’s still her favorite thing to do. As the Product Accessibility Lead at HashiCorp, she develops accessibility strategies and offers guidance to the design system and product teams, working collaboratively to deliver inclusive, standards-compliant products.
             </p>
             <p>
-              In addition to her role at HashiCorp, Melanie is an invited expert for the W3C's ARIA working group and co-editor of the Accessible Name and Description Computation specification, playing an active part in advancing web accessibility standards.
+              In addition to her role at HashiCorp, Melanie is an invited expert for the W3C’s ARIA working group and co-editor of the Accessible Name and Description Computation specification, playing an active part in advancing web accessibility standards.
             </p>
             <p>
               When she needs a break, Melanie enjoys brainstorming new collective nouns for the web (collective-nouns.dev) or unwinding with a game of Stardew Valley.
@@ -170,10 +170,10 @@
               Now living in the West of Ireland, David enjoys the great outdoors and finds peace by the ocean and in the mountains. He is married to his cat, Fuzzybum.
             </p>
     - time: "11:30&mdash;12:00"
-      label: "From React JS to Ember: A Newbie's Comparative Journey"
+      label: "From React JS to Ember: A Newbie’s Comparative Journey"
       description: >
         <p>
-          This talk will draw from Toyib's six years of React experience and his recent months with Ember.js to provide a rich, comparative analysis.
+          This talk will draw from Toyib’s six years of React experience and his recent months with Ember.js to provide a rich, comparative analysis.
           It explores how Ember’s “convention over configuration” philosophy, built-in tools, and performance optimisations contrast with React’s flexible, component-based architecture, and
           discusses the strengths and challenges of each framework, offering practical advice on leveraging Ember’s features for efficient and scalable development.
         </p>
@@ -200,7 +200,7 @@
           image: "/images/speakers/bart-dudzik.jpeg"
           url: "https://www.linkedin.com/in/bartlomiej-dudzik/"
           bio: >
-            <p>Bartłomiej is a passionate programmer who loves to code, learn new things, and see progress on projects he is working on. He's interested in frontend, backend and devops.</p
+            <p>Bartłomiej is a passionate programmer who loves to code, learn new things, and see progress on projects he is working on. He’s interested in frontend, backend and devops.</p
     - time: "14:15&mdash;14:45"
       label: "Ready vs. Done: Striking the Balance Between Good and Perfect"
       description: >
@@ -237,7 +237,7 @@
           url: "https://crunchingnumbers.live/"
           bio: >
             <p>
-              A chance encounter with Ember in '17 has led Isaac to unexpected places thanks to the Ember community. He feels fortunate to get to give back as a Tech Lead at CLARK and the author of a few addons and codemods.
+              A chance encounter with Ember in ’17 has led Isaac to unexpected places thanks to the Ember community. He feels fortunate to get to give back as a Tech Lead at CLARK and the author of a few addons and codemods.
             </p>
     - time: "15:30&mdash;16:00"
       label: "Snack break"
@@ -245,7 +245,7 @@
       label: "Lightning Talks"
       description: >
         <p>
-          The Lightning Talks block is your chance to tell the audience about something you want to share, in 5-minutes or less. You'll be able to sign up for it at the event.
+          The Lightning Talks block is your chance to tell the audience about something you want to share, in 5-minutes or less. You’ll be able to sign up for it at the event.
         </p>
     - time: "16:45&mdash;17:15"
       label: "The Art of Data Fetching"
@@ -263,7 +263,7 @@
           url: "https://tomekdev.com/"
           bio: >
             <p>
-              Tomek is a Principal Engineer at Phorest by day and a hacker by night 🤓 He spends most of his days on perfecting interfaces but he's also very interested in how automation and processes can help teams to be very performant. He occasionally blogs and non-occasionally develops side-projects.
+              Tomek is a Principal Engineer at Phorest by day and a hacker by night 🤓 He spends most of his days on perfecting interfaces but he’s also very interested in how automation and processes can help teams to be very performant. He occasionally blogs and non-occasionally develops side-projects.
             </p>
     - time: "17:30&mdash;18:00"
       label: "Closing Keynote"
