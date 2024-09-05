@@ -294,9 +294,6 @@
           display: flex;
           flex-direction: row;
           gap: 20px;
-          @include md {
-            gap: 50px;
-          }
           align-items: center;
           justify-content: flex-start;
           width: 100%;
@@ -436,7 +433,6 @@
           @include md {
             font-size: 22px;
             line-height: 28px;
-            gap: 40px;
           }
         }
         
@@ -489,9 +485,6 @@
           display: flex;
           flex-direction: column;
           gap: 20px;
-          @include md {
-            gap: 50px;
-          }
           align-items: flex-start;
           justify-content: flex-start;
           width: 100%;
