@@ -243,6 +243,10 @@
       label: "Snack break"
     - time: "16:00&mdash;16:30"
       label: "Lightning Talks"
+      description: >
+        <p>
+          The Lightning Talks block is your chance to tell the audience about something you want to share, in 5-minutes or less. You'll be able to sign up for it at the event.
+        </p>
     - time: "16:45&mdash;17:15"
       label: "The Art of Data Fetching"
       description: >
