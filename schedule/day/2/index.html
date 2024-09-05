@@ -53,10 +53,14 @@ title: EmberFest – Schedule day 2
                       {%if speaker.twitter or speaker.url %}
                         <div class="links">
                           {%if speaker.twitter %}
-                            <a class="btn-icon" href="{{speaker.url}}" target="_blank" rel="noopener noreferrer"><img src="/images/icons/link.svg" alt="link icon"/></a>
+                            <a class="btn-icon" href="https://twitter.com/{{speaker.twitter}}" target="_blank" rel="noopener noreferrer">
+                              <img src="/images/icons/twitter.svg" alt="X icon"/>
+                            </a>
                           {% endif %}
                           {%if speaker.url %}
-                            <a class="btn-icon" href="https://twitter.com/{{speaker.twitter}}" target="_blank" rel="noopener noreferrer"><img src="/images/icons/twitter.svg" alt="Mastodon icon"/></a>
+                            <a class="btn-icon" href="{{speaker.url}}" target="_blank" rel="noopener noreferrer">
+                              <img src="/images/icons/link.svg" alt="link icon"/>
+                            </a>
                           {% endif %}
                         </div>
                       {% endif %}
