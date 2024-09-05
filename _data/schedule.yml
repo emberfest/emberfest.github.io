@@ -113,7 +113,7 @@
           twitter: "still_runspired"
           url: "https://runspired.com"
           bio: >
-            <p>Chris is a software architect at AuditBoard and long-term Ember Data Core Team leader (and now WarpDrive architect). He's also a mountain/ultra/trail runner.</p>
+            <p>Chris is a Senior Staff Software Engineer at AuditBoard and long-term EmberData/WarpDrive team member. He's also a mountain/ultra/trail runner.</p>
 - label: "Day 2"
   date: "Sep 13, Friday"
   slots:
@@ -121,6 +121,19 @@
       label: "Doors open & Breakfast"
     - time: "10:00&mdash;10:30"
       label: "But Why? A look at common patterns found on the web, how they are harmful for accessibility, and what to do instead."
+      description: >
+        <p>
+          Components are one of Melanie’s favorite aspects of building Ember applications. 
+          A well-documented and structured design system can empower teams to create accessible applications more efficiently.
+        </p>
+        <p>
+          However, components alone are not enough to ensure accessibility.
+          In this talk, Melanie will unpack several common UI patterns frequently missing critical elements for digital accessibility.
+        </p>
+        <p>
+          She’ll also provide actionable insights and practical steps that developers, designers, and accessibility advocates can implement to elevate the accessibility of web products. 
+          Attendees will leave equipped to critically analyze their own applications and take immediate steps to improve inclusivity.
+        </p>
       speakers:
         - name: "Melanie Sumner"
           image: "/images/speakers/melanie-sumner.jpg"
@@ -128,8 +141,13 @@
           url: "https://www.linkedin.com/in/melaniesumner"
           bio: >
             <p>
-              Melanie is a decorated, disabled military veteran who decided to turn her hobby (writing code) into her second career after her enlistment ended. She now works as a Senior Engineer in Design Systems at HashiCorp.
-              She is an active member of the Ember.js core team, a member of the WAI-ARIA working group, and a judge for the CSS Design Awards.
+              Melanie Sumner began building things for the web in 1997, and after all these years, it's still her favorite thing to do. As the Product Accessibility Lead at HashiCorp, she develops accessibility strategies and offers guidance to the design system and product teams, working collaboratively to deliver inclusive, standards-compliant products.
+            </p>
+            <p>
+              In addition to her role at HashiCorp, Melanie is an invited expert for the W3C's ARIA working group and co-editor of the Accessible Name and Description Computation specification, playing an active part in advancing web accessibility standards.
+            </p>
+            <p>
+              When she needs a break, Melanie enjoys brainstorming new collective nouns for the web (collective-nouns.dev) or unwinding with a game of Stardew Valley.
             </p>
     - time: "10:45&mdash;11:15"
       label: "From Monolith to Monorepo: The life story of a large legacy Ember app"
@@ -147,6 +165,8 @@
           bio: >
             <p>
               David is a Dublin-native who has been hacking Ember since 2014 and is currently employed at Phorest in the role of Front-end Staff Engineer.
+            </p>
+            <p>
               Now living in the West of Ireland, David enjoys the great outdoors and finds peace by the ocean and in the mountains. He is married to his cat, Fuzzybum.
             </p>
     - time: "11:30&mdash;12:00"
@@ -194,8 +214,11 @@
           url: "https://www.linkedin.com/in/kenigbolo/"
           bio: >
             <p>
-              Stephen is a Senior Engineering Manager at Phorest. With a background in full-stack software development, he has worked on different types of projects and initiatives. Stephen also loves mentorship, helping to nurture the next generation of tech talent, and he strongly advocates for giving underrepresented folks opportunities. In his free time, he’s either missing flights in Brazil, traveling through South America, or dealing with the harsh Finnish winters because his daughter loves to build her snowman after school during winter.
-            </p
+              Stephen is a Senior Engineering Manager at Phorest. With a background in full-stack software development, he has worked on different types of projects and initiatives. Stephen also loves mentorship, helping to nurture the next generation of tech talent, and he strongly advocates for giving underrepresented folks opportunities. 
+            </p>
+            <p>
+              In his free time, he’s either missing flights in Brazil, traveling through South America, or dealing with the harsh Finnish winters because his daughter loves to build her snowman after school during winter.
+            </p>
     - time: "15:00&mdash;15:30"
       label: "Moving Mountains"
       description: >
