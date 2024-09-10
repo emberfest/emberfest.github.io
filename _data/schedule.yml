@@ -94,14 +94,11 @@
       speakers:
         - name: "Mo Fiebiger"
           image: "/images/speakers/mo-fiebiger.jpeg"
-          url: "https://www.linkedin.com/in/mofiebiger/"
+          twitter: "fizzbuzzpodcast"
+          url: "https://linktr.ee/fizzbuzzpodcast"
           bio: >
             <p>
-              Mo is an Engineering Manager at Phorest Salon Software and her background is in visual arts and
-              psychology. Before she started her masters in computer science, she had never written a single line
-              of code. This was a challenge, but looking back, Mo feels taking the leap of faith was the best
-              thing she has ever done. Now, Mo’s passion is being an advocate for diversity in tech and teaching
-              others to grow their technical skills as a Co-host on Fizz Buzz Podcast.
+              Mo spends her free time diving into fantasy novels, crocheting, and hitting up the CrossFit gym. By day, she’s rocking it as an Engineering Manager at Phorest Salon Software, but she’s always up for coding whenever she can sneak it in. Mo’s all about boosting diversity in tech and helping folks level up their tech skills as a Co-host on the Fizz Buzz Podcast!
             </p>
     - time: "17:30&mdash;18:00"
       label: "The Architecture of WarpDrive | Beyond Universal"
@@ -281,3 +278,5 @@
             <p>
               Ed resides in Somerville, Massachusetts with his wife and two sons.
             </p>
+    - time: "18:30&mdash;23:00"
+      label: "Closing Party at the venue &#x1F389;"
