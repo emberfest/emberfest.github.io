@@ -6,3 +6,13 @@
   align-items: center;
   text-align: center;
 }
+
+.about-btns {
+  display:flex;
+  flex-direction: column;
+  gap:3rem;
+
+  @include desktop {
+    flex-direction: row;
+  }
+}

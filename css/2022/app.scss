@@ -889,16 +889,6 @@ footer {
     p {
       margin: 12px 0;
     }
-
-    @include desktop {
-      & {
-        flex-direction: row;
-      }
-
-      p {
-        margin: 0;
-      }
-    }
   }
 
   ul {
