@@ -1,15 +1,21 @@
 @import "mixins";
 
 body {
-font-family: brother-1816-printed, sans-serif;
-font-weight: 700;
-font-style: normal;
-color: $black;
+  font-family: "pill-gothic-900mg", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: $blue-400;
 }
 
 ::selection {
   background: $orange;
   color: $beige;
+}
+
+h1, h3 {
+  font-family: postino-std, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1, h2, h3, h5 {
@@ -18,7 +24,8 @@ line-height: 1.3;
 }
 
 h1 {
-  font-size: 8.75rem;
+  font-size: 7rem;
+  line-height:1;
 
   @include small-desktop {
     font-size: 6rem;
@@ -85,6 +92,7 @@ h4 {
 
 h5 {
   font-size: 2.5rem;
+  font-weight: 500;
 
   @include mobile {
     font-size: 1.5rem;
@@ -92,6 +100,7 @@ h5 {
 }
 
 p {
+  color: $blue-600;
   font-weight: 300;
   font-size: 1.5rem;
   line-height: 2.4rem;
