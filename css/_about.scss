@@ -8,9 +8,14 @@
 }
 
 .about-btns {
-  display:flex;
+  display: flex;
   flex-direction: column;
-  gap:3rem;
+  gap: 3rem;
+
+  button,
+  a {
+    width: 21rem;
+  }
 
   @include desktop {
     flex-direction: row;
