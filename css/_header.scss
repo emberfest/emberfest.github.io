@@ -8,9 +8,8 @@ header {
 .header-links {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: end;
-  align-items: end;
+  align-items: center;
   gap: 1rem;
   text-align: right;
 }
