@@ -4,40 +4,107 @@
   align-items: center;
 }
 
+.past-speakers-section {
+  background: #eef3ff;
+  padding: 8rem 0 8rem;
+  text-align: center;
+  background-image: url(/images/backgrounds/speakers-top-bkg.png), url(/images/backgrounds/speakers-bottom-bkg.png);
+  background-repeat: repeat-x, repeat-x;
+  background-position: top, bottom;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.past-speakers-title {
+  font-family: postino-std, serif;
+  font-size: 3rem;
+  margin-bottom: 3.5rem;
+  font-weight: 700;
+}
+
 .past-speakers-list {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 7.5rem;
   justify-content: center;
+  gap: 3.5rem 3rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.speaker {
+.speaker-card {
+  background: none;
+  border: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
+  width: 220px;
+  margin-bottom: 2rem;
+  &--blue {
+    .speaker-link{
+      background: #719DEA;
+    }
+    mix-blend-mode: multiply;
+  }
+  &--orange {
+    .speaker-link{
+      background: #eb7f19;
+    }
+  }
 }
 
-.avatar {
-  width: 15rem;
-  height: 15rem;
-  flex-shrink: 0;
-  clip-path: circle();
-}
-
-.speaker-info {
+.speaker-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 8px solid #fff;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin-bottom: 3rem;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(1) contrast(1.1);
+    z-index: 1;
+  }
+}
+
+.speaker-name {
+  font-family: "pill-gothic-900mg", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #000;
 }
 
 .speaker-links {
   display: flex;
-  flex-direction: row;
-  justify-content: end;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.speaker-link {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
   align-items: center;
-  gap: 1rem;
-  padding: 1rem 0;
+  justify-content: center;
+  img {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (max-width: 600px) {
+  .past-speakers-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem 0;
+  }
 }
