@@ -4,6 +4,20 @@
   align-items: center;
 }
 
+.content-layout {
+  display: grid;
+  gap: 2rem;
+  @media (min-width: 1350px) {
+    gap: 4rem;
+    margin: 0 20%;
+    grid-template-columns: auto 700px;
+  }
+
+  img {
+    max-width: min(70vw, 700px);
+  }
+}
+
 .date {
   text-align: center;
 }
