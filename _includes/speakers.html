@@ -1,33 +1,37 @@
-<section class="past-speakers-section">
-  <h2 class="past-speakers-title">Past Speakers</h2>
-  <ul class="past-speakers-list">
-    {% for speaker in site.data.speakers %}
-    {%- assign mod = forloop.index0 | modulo: 2 -%}
-    {% if mod == 0 %}
-    {% assign color = 'blue' %}
-    {% else %}
-    {% assign color = 'orange' %}
-    {% endif %}
-    <li class="speaker-card speaker-card--{{ color }}">
-      <div class="speaker-avatar">
-        <img src="/images/speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}" />
-      </div>
-      <div class="speaker-name">{{ speaker.name }}</div>
-      <div class="speaker-links">
-        {% if speaker.twitter %}
-        <a href="{{ speaker.twitter }}" class="speaker-link" aria-label="X">
-          <img src="/images/icons/twitter.svg" alt="X" />
-        </a>
-        {% endif %}
-        {% if speaker.web %}
-        <a href="{{ speaker.web }}" class="speaker-link" aria-label="Website">
-          <img src="/images/icons/link.svg" alt="Website" />
-        </a>
-        {% endif %}
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
+<section class="speakers-section">
+  <div class="past-speakers">
+    <h2 class="speakers-title">Past Speakers</h2>
+    <ul class="speakers-list">
+      {% for speaker in site.data.speakers %}
+      {%- assign mod = forloop.index0 | modulo: 2 -%}
+      {% if mod == 0 %}
+      {% assign color = 'blue' %}
+      {% else %}
+      {% assign color = 'orange' %}
+      {% endif %}
+      <li class="speaker-card speaker-card--{{ color }}">
+        <div class="speaker-avatar">
+          <img src="/images/speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}" />
+        </div>
+        <div class="speaker-name">{{ speaker.name }}</div>
+        <div class="speaker-links">
+          {% if speaker.twitter %}
+          <a href="{{ speaker.twitter }}" class="speaker-link" aria-label="X">
+            <img src="/images/icons/twitter.svg" alt="X" />
+          </a>
+          {% endif %}
+          {% if speaker.web %}
+          <a href="{{ speaker.web }}" class="speaker-link" aria-label="Website">
+            <img src="/images/icons/link.svg" alt="Website" />
+          </a>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  {% include organizers.html %}
   <!-- 
     <a class="button btn-primary mt-8" href="https://www.papercall.io/emberfest-2024" alt="Submit a Talk">
       Submit a Talk

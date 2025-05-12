@@ -1,15 +1,15 @@
 {% if site.data.organizers %}
-  <div class="organizers container mb-16 mw-xl">
-    <h3 class="mb-9">Organizers</h3>
-    <ul class="organizers">
-      {% for organizer in site.data.organizers %}
-        <li class="organizer">
-          <img class="avatar" src="/images/organizers/{{ organizer.logo }}"/>
-          <a class="name" href="{{ organizer.link }}">
-            <h5>{{ organizer.name }}</h5>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
+<div class="organizers">
+  <h2 class="speakers-title">Organizers</h2>
+  <ul class="speakers-list">
+    {% for organizer in site.data.organizers %}
+    <li class="speaker-card">
+      <img class="speaker-avatar" src="/images/organizers/{{ organizer.logo }}" />
+      <a class="speaker-name" href="{{ organizer.link }}">
+        {{ organizer.name }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
 {% endif %}

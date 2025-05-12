@@ -1,10 +1,10 @@
-.past-speakers {
+.speakers {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.past-speakers-section {
+.speakers-section {
   background: #eef3ff;
   padding: 8rem 0 8rem;
   text-align: center;
@@ -13,20 +13,23 @@
   background-position: top, bottom;
   margin-top: 5rem;
   margin-bottom: 5rem;
+  display: flex;
+  gap: 6rem;
+  flex-direction: column;
 }
 
-.past-speakers-title {
+.speakers-title {
   font-family: postino-std, serif;
   font-size: 3rem;
   margin-bottom: 3.5rem;
   font-weight: 700;
 }
 
-.past-speakers-list {
+.speakers-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 3.5rem 3rem;
+  gap: 3rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -40,6 +43,9 @@
   align-items: center;
   width: 220px;
   margin-bottom: 2rem;
+  @media (max-width: 600px) {
+    margin-bottom: 0;
+  }
   &--blue {
     .speaker-link{
       background: #719DEA;
@@ -60,6 +66,9 @@
   border: 8px solid #fff;
   overflow: hidden;
   margin-bottom: 2rem;
+  @media (max-width: 600px) {
+    margin-bottom: 0.5rem;
+  }
   position: relative;
   display: flex;
   align-items: center;
@@ -79,6 +88,9 @@
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
+  @media (max-width: 600px) {
+    margin-bottom: 0.5rem;
+  }
   color: #000;
 }
 
