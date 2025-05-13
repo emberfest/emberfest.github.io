@@ -12,9 +12,10 @@
     margin: 0 20%;
     grid-template-columns: auto 700px;
   }
-
+  
   img {
     max-width: min(70vw, 700px);
+    margin: auto;
   }
 }
 
@@ -22,7 +23,17 @@
   text-align: center;
 }
 
-.hero p {
-  text-align: left;
+.hero {
+  margin-bottom: 10rem;
+  @media (max-width: 700px) {
+    margin-bottom: 4rem;
+
+  }
   
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: left;
+  }
 }
