@@ -1,17 +1,14 @@
 .venue {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
   gap: 3rem;
 
-  @include tablet {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 2rem;
-  }
   background-color: white;
   padding: 6rem;
+  @include tablet {
+    padding: 6rem 2rem;
+  }
   border-radius: 49px;
   background-image: url('/images/backgrounds/venue-border.svg');
 
@@ -20,6 +17,21 @@
   position: relative;
   &.container {
     margin-bottom: -15rem;
+    max-width: 60rem;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 2rem;
+
+    @include xl {
+      max-width: 72rem;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include small-desktop {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
   }
 
   box-shadow: 0 8px 32px rgba(54, 68, 146, 0.10);
@@ -29,11 +41,12 @@
 }
 
 .venue-img {
-  // width: 20rem;
-  height: 35rem;
+  height: 25rem;
+  @include xl {
+    height: 35rem;
+  }
   max-width: 100%;
   max-height: 100%;
   flex-shrink: 0;
-  // inset(0% 45% 0% 45% round 10px)
   border-radius: 49px;
 }
