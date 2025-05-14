@@ -31,6 +31,11 @@
   }
 
   &.sponsor-section-wrapper__premier-partners {
+    .sponsors-list {
+      li:last-child {
+        grid-column: span 3;
+      }
+    }
     img {
       max-width: 25rem;
       max-height: 10rem;
@@ -42,6 +47,11 @@
   }
 
   &.sponsor-section-wrapper__dinner-sponsors {
+    .sponsors-list {
+      li:last-child {
+        grid-column: span 3;
+      }
+    }
     img {
       max-width: 10rem;
       max-height: 5rem;
@@ -76,9 +86,29 @@
 
 .sponsors-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr) );
+  grid-template-columns: 1fr;
+  li:last-child {
+      grid-column: 1;
+  }
+  
+  @include md {
+    grid-template-columns: 1fr 1fr;
+    li:last-child {
+      grid-column: span 2;
+    }
+  }
+
+  @include lg {
+    grid-template-columns: 1fr 1fr 1fr;
+    li:last-child {
+        grid-column: initial;
+    }
+  }
+
+  
   align-items: center;
-  gap: 5rem;
-  max-width: 1200px;
+  justify-items: center;
+  gap: 3rem;
+  max-width: min(1200px, 80%);
   margin: 0 auto;
 }
