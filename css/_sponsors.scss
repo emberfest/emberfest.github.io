@@ -32,8 +32,11 @@
 
   &.sponsor-section-wrapper__premier-partners {
     .sponsors-list {
-      li:last-child {
-        grid-column: span 3;
+      li {
+        padding: 3rem 4rem;
+        &:last-child {
+          grid-column: span 3;
+        }
       }
     }
     img {
