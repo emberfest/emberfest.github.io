@@ -6,7 +6,6 @@
 
   &:hover {
     transform: translateY(-5px) rotate(0deg);
-    filter: drop-shadow(0 8px 15px rgba(0, 0, 0, 0.15));
     transform: rotate(-2deg);
   }
 
@@ -22,6 +21,12 @@
     font-weight: 700;
     @include mobile {
       font-size: 1.5rem;
+    }
+
+    &:hover {
+      color: white;
+      text-decoration-color: initial;
+      text-decoration: underline;
     }
   }
 
