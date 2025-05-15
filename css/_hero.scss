@@ -10,7 +10,7 @@
   @media (min-width: 1350px) {
     gap: 4rem;
     margin: 0 20%;
-    grid-template-columns: auto 700px;
+    grid-template-columns: auto min(700px, 50%);
   }
   
   img {
