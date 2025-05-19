@@ -44,6 +44,17 @@
   padding: 0;
 }
 
+.speaker-link { 
+  scale:1;
+  transition: .1s ease-out;
+  
+  &:hover,
+  &:active {
+    scale:1.1;
+    transition: .1s ease-out;
+  }
+}
+
 .speaker-card {
   background: none;
   border: none;
@@ -57,12 +68,22 @@
   }
   &--blue {
     .speaker-link{
-      background: #719DEA;
+      background: $blue-300;
+
+      &:hover,
+      &:active {
+        background: $blue-400;
+      }
     }
   }
   &--orange {
     .speaker-link{
-      background: #eb7f19;
+      background: $orange;
+    
+    &:hover,
+    &:active {
+      background: $brown;
+    }
     }
   }
 }
