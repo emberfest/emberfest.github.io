@@ -4,16 +4,26 @@
   align-items: center;
 }
 
+.speakers-divider-top {
+  background-image: url(/images/backgrounds/speakers-top-bkg.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 2.5rem;
+}
+
+.speakers-divider-bottom {
+  background-image: url(/images/backgrounds/speakers-bottom-bkg.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 2.5rem;
+}
+
 .speakers-section {
-  background: #eef3ff;
-  padding: 8rem 0 8rem;
+  background: $blue-050;
   text-align: center;
-  background-image: url(/images/backgrounds/speakers-top-bkg.png), url(/images/backgrounds/speakers-bottom-bkg.png);
-  background-repeat: repeat-x, repeat-x;
-  background-position: top, bottom;
   margin-top: 5rem;
   display: flex;
-  gap: 6rem;
+  gap: 3rem;
   flex-direction: column;
 }
 

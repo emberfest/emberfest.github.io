@@ -1,12 +1,16 @@
+.stay-up-to-date-divider {
+  background-image: url(/images/backgrounds/speakers-top-bkg.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 2.5rem;
+  margin-bottom: 11rem;
+}
+
 .stay-up-to-date-section {
   display: flex;
   gap: 5rem;
   flex-direction: column;
-  background: #eef3ff;
-  background-image: url(/images/backgrounds/speakers-top-bkg.png);
-  background-repeat: repeat-x;
-  background-position: top;
-  padding-top: 20rem;
+  background: $blue-050;
 
   h2 {
     font-family: 'postino-std', cursive, sans-serif;
