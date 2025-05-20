@@ -95,8 +95,8 @@
   overflow: hidden;
   margin-bottom: 2rem;
 
-  @media (max-width: 600px) {
-    margin-bottom: 0.5rem;
+  @include mobile {
+    margin-bottom: 1.5rem;
   }
 
   position: relative;

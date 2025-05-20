@@ -4,9 +4,11 @@
   <ul class="speakers-list">
     {% for organizer in site.data.organizers %}
     <li class="speaker-card">
-      <img class="speaker-avatar" src="/images/organizers/{{ organizer.logo }}" />
-      <a class="speaker-name" href="{{ organizer.link }}">
-        {{ organizer.name }}
+      <a href="{{ organizer.link }}" target="_blank">
+        <img class="speaker-avatar" src="/images/organizers/{{ organizer.logo }}" />
+        <span class="speaker-name">
+          {{ organizer.name }}
+        </span>
       </a>
     </li>
     {% endfor %}
