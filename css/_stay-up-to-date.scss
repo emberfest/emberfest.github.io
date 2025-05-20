@@ -7,31 +7,17 @@
 }
 
 .stay-up-to-date-section {
+  h4 {
+    text-wrap: balance;
+    color: $blue-300;
+  }
+  
+
   display: flex;
   gap: 5rem;
   flex-direction: column;
   background: $blue-050;
-
-  h2 {
-    font-family: 'postino-std', cursive, sans-serif;
-    font-size: 3rem;
-    @include tablet {
-      font-size: 1.5rem;
-      margin-bottom: 6rem;
-    }
-    margin-bottom: 8rem;
-    text-align: center;
-    
-    span.emberfest {
-      display: block;
-      font-size: 5rem;
-      @include tablet {
-        font-size: 2rem;
-      }
-      margin-top: 2.5rem;
-      letter-spacing: 0.02em;
-    }
-  }
+  text-align: center;
 
   form {
     display: flex;
@@ -57,7 +43,7 @@
       border: none;
       border-radius: 3rem;
       background: #fff;
-      box-shadow: 0 4px 8px rgba(54, 68, 146, 0.08);
+      filter: $shadow;
       color: #364492;
       font-weight: 400;
       line-height: 38.4px;
@@ -67,10 +53,11 @@
       &::placeholder {
         color: #364492;
         opacity: 0.60;
+        font-weight:400;
       }
 
       &:focus {
-        box-shadow: 0 6px 16px rgba(54, 68, 146, 0.15);
+        filter: $shadow $shadow;
       }
     }
 
