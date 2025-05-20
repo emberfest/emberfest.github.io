@@ -78,9 +78,25 @@ $spacers: (
   }
   .mt-#{$name} {
     margin-top: $glyph;
+
+    @include small-desktop {
+      margin-top: calc( $glyph/1.5);
+    }
+
+    @include mobile {
+      margin-top: calc( $glyph/2);
+    }
   }
   .mb-#{$name} {
     margin-bottom: $glyph;
+
+    @include small-desktop {
+      margin-bottom: calc( $glyph/1.5);
+    }
+
+    @include mobile {
+      margin-bottom: calc( $glyph/2);
+    }
   }
   .mx-#{$name} {
     margin-right: $glyph;
