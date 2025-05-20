@@ -13,6 +13,7 @@
   width: 100%;
 
   li {
+    filter: $shadow;
     padding: 2rem 4rem;
     background-color: white;
     border-radius: 9999px;
