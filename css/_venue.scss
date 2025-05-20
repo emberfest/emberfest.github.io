@@ -9,12 +9,12 @@
   @include tablet {
     padding: 6rem 2rem;
   }
-  border-radius: 49px;
+  border-radius: 2rem;
   background-image: url('/images/backgrounds/venue-border.svg');
-
   background-size: cover;
   background-position: center;
   position: relative;
+  text-wrap: balance;
   &.container {
     margin-bottom: -15rem;
     max-width: 60rem;
@@ -34,7 +34,7 @@
     }
   }
 
-  box-shadow: 0 8px 32px rgba(54, 68, 146, 0.10);
+  filter: $shadow;
   .content {
     align-items: start;
   }
@@ -48,5 +48,13 @@
   max-width: 100%;
   max-height: 100%;
   flex-shrink: 0;
-  border-radius: 49px;
+  border-radius: 1rem;
+}
+
+.venue-title {
+  margin: 0 auto; 
+
+  @include xl {
+    margin: inherit;
+  }
 }
