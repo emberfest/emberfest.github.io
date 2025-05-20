@@ -13,17 +13,26 @@ footer {
   align-items: center;
   text-align: center;
   color: $beige;
-  background-color: #26266d;
+  background-color: $blue-500;
+
+  .footer-glasses {
+    width: clamp(4rem, 20vw, 6rem);
+  }
 
   a.link-text,
   p {
-    color: #fff8ee;
+    color: $beige;
     font-family: "pill-gothic-900mg", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 38.4px;
     text-decoration: none;
+  }
+
+  a.link-text:hover,
+  a.link-text:active {
+    text-decoration: underline;
   }
 }
 
