@@ -19,9 +19,19 @@
   flex-direction: column;
   gap: 3rem;
 
+  @include mobile {
+    gap: 1rem;
+  }
+
   button,
   a {
     width: 21rem;
+  }
+
+  .btn-primary {
+    @include mobile {
+     scale:0.8;
+    }
   }
 
   @include desktop {
