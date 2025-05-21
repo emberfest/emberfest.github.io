@@ -2,7 +2,7 @@
   <div class="speakers-divider-top"></div>
   <div class="past-speakers mb-9">
     <h4 class="mb-9">Speakers</h4>
-    <ul class="speakers-list">
+    <ul class="speakers-list container">
       {% for speaker in site.data.speakers %}
       {%- assign mod = forloop.index0 | modulo: 2 -%}
       {% if mod == 0 %}
