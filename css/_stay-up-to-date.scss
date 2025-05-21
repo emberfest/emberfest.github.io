@@ -44,20 +44,19 @@
       border-radius: 3rem;
       background: #fff;
       filter: $shadow;
-      color: #364492;
+      color: $blue-600;
       font-weight: 400;
       line-height: 38.4px;
       outline: none;
       transition: box-shadow 0.2s;
 
       &::placeholder {
-        color: #364492;
-        opacity: 0.60;
+        color: $blue-300;
         font-weight:400;
       }
 
       &:focus {
-        filter: $shadow $shadow;
+        filter: $shadow $shadow $shadow;
       }
     }
 
