@@ -1,5 +1,6 @@
 .btn-shadow {
   filter: $shadow;
+  padding:2rem;
 }
 
 .btn-primary {
@@ -34,7 +35,7 @@
     color: white;
     text-align: center;
     font-family: postino-std;
-    border: 0.3rem solid white;
+    border: .5rem solid white;
     background-color: $orange;
     font-size: 3rem;
     font-weight: 500;
@@ -49,6 +50,17 @@
     @include mobile {
       font-size: 1.5rem;
       height:8rem;
+    }
+
+    &:before {
+      content: " ";
+      position: absolute;
+      z-index: 2;
+      top: 16px;
+      left: 16px;
+      right: 16px;
+      bottom: 16px;
+      border: 5px solid white;
     }
 
 
