@@ -135,3 +135,27 @@
     background-color: $orange;
   }
 }
+
+.btn-secondary {
+  margin-top:1rem;
+  font-size: 1.5rem;
+  background-color: $orange;
+  border-radius: 3rem;
+  color: $white;
+  padding: .75rem 1.5rem;
+  transition: .1s ease-out;
+  font-weight: 700; 
+
+  @include mobile {
+    font-size: 1.25rem;
+  }
+
+  &:hover, 
+  &:active {
+    color: $white;
+    background-color: $brown;
+    scale: 1.1; 
+    transition: .1s ease-out;
+    text-decoration: none;
+  }
+}
