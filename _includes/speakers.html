@@ -1,37 +1,42 @@
-<section id="past-speakers" class="past-speakers container mb-10">
- <img class="mb-5 mobile-75" src="/images/small.svg" alt="" />
-  <h3 class="mb-9">Speakers</h3>
-  <ul class="past-speakers-list">
-    {% for speaker in site.data.speakers %}
-      <li class="speaker">
-        <img
-        class="avatar"
-        alt="{{ speaker.name }} avatar"
-        src="/images/speakers/{{ speaker.avatar }}"
-/>
-        <div class="speaker-info">
-          <h5>{{ speaker.name }}</h5>
-          <ul class="speaker-links">
-            <li>
-              <a
-        href="{{ speaker.web }}"
-        target="_blank"
-        rel="noopener noreferrer" class="btn-icon"><img src="/images/icons/link.svg" alt="link icon"/></a>
-            </li>
-            <li>
-              <a
-        href="{{ speaker.twitter }}"
-        target="_blank"
-        rel="noopener noreferrer" class="btn-icon"><img src="/images/icons/twitter.svg" alt="Mastodon icon"/></a>
-            </li>
-          </ul>
+<section class="speakers-section">
+  <div class="speakers-divider-top"></div>
+  <div class="past-speakers mb-9">
+    <h4 class="mb-9">Speakers</h4>
+    <ul class="speakers-list container">
+      {% for speaker in site.data.speakers %}
+      {%- assign mod = forloop.index0 | modulo: 2 -%}
+      {% if mod == 0 %}
+      {% assign color = 'blue' %}
+      {% else %}
+      {% assign color = 'orange' %}
+      {% endif %}
+      <li class="speaker-card speaker-card--{{ color }}">
+        <div class="speaker-avatar">
+          <img src="/images/speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}" />
+        </div>
+        <div class="speaker-name">{{ speaker.name }}</div>
+        <div class="speaker-links">
+          {% if speaker.twitter %}
+          <a href="{{ speaker.twitter }}" class="speaker-link" aria-label="X">
+            <img src="/images/icons/twitter.svg" alt="X" />
+          </a>
+          {% endif %}
+          {% if speaker.web %}
+          <a href="{{ speaker.web }}" class="speaker-link" aria-label="Website">
+            <img src="/images/icons/link.svg" alt="Website" />
+          </a>
+          {% endif %}
         </div>
       </li>
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </ul>
+  </div>
+
+  {% include organizers.html %}
   <!-- 
     <a class="button btn-primary mt-8" href="https://www.papercall.io/emberfest-2024" alt="Submit a Talk">
       Submit a Talk
     </a>
   -->
+  <div class="speakers-divider-bottom"></div>
 </section>

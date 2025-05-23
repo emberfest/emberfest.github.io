@@ -1,27 +1,14 @@
 .organizers {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  & a:hover span,
+  & .speaker-name:hover {
+      color: $orange;
+  }
 
-  ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: start;
-    gap: 3rem;
-    @include tablet {
-        grid-template-columns: 1fr;
+  & .speaker-avatar {
+    margin: 0 auto 2rem auto;
+
+    @include mobile {
+      margin-bottom: 1.5rem;
     }
-  }
-
-  li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 3rem;
-  }
-
-  .avatar {
-    flex-shrink: 0;
   }
 }
