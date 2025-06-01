@@ -1,6 +1,8 @@
 .btn-shadow {
   filter: $shadow;
-  padding:2rem;
+  @include lg {
+    padding:2rem;
+  }
 }
 
 .btn-primary {
