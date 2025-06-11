@@ -26,6 +26,11 @@
             <img src="/images/icons/link.svg" alt="Website" />
           </a>
           {% endif %}
+          {% if speaker.bluesky %}
+          <a href="{{ speaker.bluesky }}" class="speaker-link" aria-label="Bluesky">
+            <img src="/images/icons/bluesky.svg" alt="Bluesky" />
+          </a>
+          {% endif %}
         </div>
       </li>
       {% endfor %}
