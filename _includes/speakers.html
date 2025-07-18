@@ -31,6 +31,16 @@
             <img src="/images/icons/bluesky.svg" alt="Bluesky" />
           </a>
           {% endif %}
+          {% if speaker.mastodon %}
+          <a href="{{ speaker.mastodon }}" class="speaker-link" aria-label="Mastodon">
+            <img src="/images/icons/mastodon.svg" alt="Mastodon" />
+          </a>
+          {% endif %}
+          {% if speaker.github %}
+          <a href="{{ speaker.github }}" class="speaker-link" aria-label="Github">
+            <img src="/images/icons/github.svg" alt="Github" />
+          </a>
+          {% endif %}
         </div>
       </li>
       {% endfor %}
