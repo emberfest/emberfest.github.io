@@ -23,5 +23,15 @@
   bluesky: "https://bsky.app/profile/nullvoxpopuli.com"
   web: "https://nullvoxpopuli.com/"
 
+- name: "Chris Manson"
+  avatar: "chris-manson.jpg"
+  bluesky: "https://bsky.app/profile/chris.manson.ie"
+  github: "https://github.com/mansona"
+
+- name: "Marine Dunstetter"
+  avatar: "marine-dunstetter.jpg"
+  mastodon: "https://mastodon.social/@BlueCut"
+  github: "https://github.com/BlueCutOfficial"
+
 
 
