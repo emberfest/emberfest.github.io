@@ -1,5 +1,6 @@
 - label: "Day 1"
-  date: "Sep 12, Thursday"
+  weekday: "Thursday"
+  date: "September 18"
   slots:
     - time: "09:00&mdash;10:00"
       label: "Doors open & Breakfast"
@@ -112,7 +113,8 @@
           bio: >
             <p>Chris is a Senior Staff Software Engineer at AuditBoard and long-term EmberData/WarpDrive team member. He’s also a mountain/ultra/trail runner.</p>
 - label: "Day 2"
-  date: "Sep 13, Friday"
+  weekday: "Friday"
+  date: "September 19"
   slots:
     - time: "09:00&mdash;10:00"
       label: "Doors open & Breakfast"
