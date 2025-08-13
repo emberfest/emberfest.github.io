@@ -1,21 +1,26 @@
-.timezones-note {
-    margin-bottom: 25px;
-    color: #5c7b62;
-    font-size:16px;
-    padding-top:15px;
+.day-info {
+  font-weight: 700;
+  color: $blue-400;
+}
 
-    @include md {
-        font-size: 20px;
+.timezones-note {
+    color: #195BCE;
+    margin: 2rem 0 1rem 0;
+    font-size: 1.1rem;
+    line-height: 1rem;
+    text-align:center;
+    
+    @include lg {
+      text-align:left;
     }
 }
 
 .time {
   white-space: nowrap;
-  padding-right: 28px;
+  padding-right: 1rem;
   width: 10%;
-  font-size: 16px;
-  line-height: 18px;
-  color: #5c7b62;
+  font-size: 1rem;
+  color: #195BCE;
   font-weight: 300;
 
   @include md {
@@ -32,6 +37,18 @@
     
     @include lg {
       padding-bottom: 200px;
+    }
+
+    .btn-primary {
+      @include lg {
+      scale: 0.6;}
+    
+      & a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      }
     }
   
     .speaker {
@@ -68,13 +85,13 @@
       }
   
       .content {
-        text-align:left;
         display: flex;
         flex-flow: column wrap;
         background-color: var(--transparent-white);
         border-radius: 10px;
-        padding: 0 18px;
-        margin-bottom: 60px;
+        text-align: left;
+        padding: 0 1rem;
+
   
         h3 {
           text-transform: uppercase;
@@ -101,33 +118,26 @@
          
         table {
           td {
-            font-size: 18px;
-            line-height: 24px;
-            padding-bottom: 25px;
+            padding-bottom: 1.5rem;
+            font-size: 1rem;
+            line-height: 1.5;
             
             @include md {
-              font-size: 22px;
-              line-height: 28px;
+              font-size: 1.25rem;
             }
           }
        
           .title {
-            font-size: 20px;
-            line-height: 26px;
+            font-size: 1rem;
             
             @include md {
-              font-size: 22px;
-              line-height: 34px;
+              font-size: 1.25rem;
             }
   
             .speaker {
               font-weight:400;
-              font-size: 16px;
-              line-height: 26px;
               
               @include md {
-                font-size: 20px;
-                line-height: 34px;
               }
             }
           }
@@ -417,7 +427,7 @@
         border-bottom: 3px solid #1d1d1b;
     
         @include md {
-          padding: 40px 0 28px;
+          padding: 3rem 0;
           gap: 40px;
           flex-direction: row;
         }
