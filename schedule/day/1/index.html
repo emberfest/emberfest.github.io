@@ -7,12 +7,12 @@ title: EmberFest – Schedule day 1
 
 {% assign day = site.data.schedule[0] %}
 
-<main class="container mb-12">
+<main class="container mb-16 mt-9 sidepage">
   <section class="full-schedule-day">
     <div class="title content">
       <div>
-        <h3 class="day">{{ day.label }} Schedule</h3>
-        <h4 class="date">{{ day.date }}</h4>
+        <h3 class="day">Schedule: {{ day.label }}</h3>
+        <h5>{{ day.weekday }}, {{ day.date }}</h5>
       </div>
       <a
             class="link-text"
@@ -30,10 +30,12 @@ title: EmberFest – Schedule day 1
             {{slot.time}}
           </td>
           <td class="title">
-            <h4>{{slot.label | safe}}</h4>
-            {%if slot.description %}
-              {{slot.description | safe}}
-            {% endif %}
+            {{slot.label | safe}}
+              {%if slot.description %}
+              <p>
+                {{slot.description | safe}}
+              </p>
+              {% endif %}
             {% if slot.speakers %}
               {% for speaker in slot.speakers %}
                 <div class="speaker">
@@ -67,7 +69,7 @@ title: EmberFest – Schedule day 1
                     </div>
                   </div>
                   {%if speaker %}
-                    {{speaker.bio | safe}}
+                    <p>{{speaker.bio | safe}}</p>
                   {% endif %}
                 </div>
               {% endfor %}
