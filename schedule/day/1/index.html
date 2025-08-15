@@ -32,44 +32,54 @@ title: EmberFest – Schedule day 1
           <td class="title">
             {{slot.label | safe}}
               {%if slot.description %}
-              <p>
                 {{slot.description | safe}}
-              </p>
               {% endif %}
             {% if slot.speakers %}
               {% for speaker in slot.speakers %}
                 <div class="speaker">
                   <div class="speaker-info">
                     {%if speaker.image %}
-                      <img
-                        class="photo"
-                        src="{{ speaker.image }}"
-                        alt="Photo of {{ speaker.name }}">
+                    <div class="speaker-avatar">
+                      <div class="photo" style="background-image:url({{ speaker.image }})"></div>
                     {% else %}
                       <img
                         class="photo"
                         src="/images/logo_vertical.svg">
                     {% endif %}
+                  </div>
                     <div class="speaker-details">
-                      <h5>{{speaker.name}}</h5>
-                      {%if speaker.twitter or speaker.url %}
-                        <div class="links">
-                          {%if speaker.twitter %}
-                            <a class="btn-icon" href="https://twitter.com/{{speaker.twitter}}" target="_blank" rel="noopener noreferrer">
-                              <img src="/images/icons/twitter.svg" alt="X icon"/>
-                            </a>
+                      <div class="speaker-name">{{speaker.name}}</div>
+                        <div class="speaker-links">
+                          {% if speaker.twitter %}
+                          <a href="{{ speaker.twitter }}" class="speaker-link" aria-label="X">
+                            <img src="/images/icons/twitter.svg" alt="X" />
+                          </a>
                           {% endif %}
-                          {%if speaker.url %}
-                            <a class="btn-icon" href="{{speaker.url}}" target="_blank" rel="noopener noreferrer">
-                              <img src="/images/icons/link.svg" alt="link icon"/>
-                            </a>
+                          {% if speaker.url %}
+                          <a href="{{ speaker.url }}" class="speaker-link" aria-label="Website">
+                            <img src="/images/icons/link.svg" alt="Website" />
+                          </a>
+                          {% endif %}
+                          {% if speaker.bluesky %}
+                          <a href="{{ speaker.bluesky }}" class="speaker-link" aria-label="Bluesky">
+                            <img src="/images/icons/bluesky.svg" alt="Bluesky" />
+                          </a>
+                          {% endif %}
+                          {% if speaker.mastodon %}
+                          <a href="{{ speaker.mastodon }}" class="speaker-link" aria-label="Mastodon">
+                            <img src="/images/icons/mastodon.svg" alt="Mastodon" />
+                          </a>
+                          {% endif %}
+                          {% if speaker.github %}
+                          <a href="{{ speaker.github }}" class="speaker-link" aria-label="Github">
+                            <img src="/images/icons/github.svg" alt="Github" />
+                          </a>
                           {% endif %}
                         </div>
-                      {% endif %}
                     </div>
                   </div>
                   {%if speaker %}
-                    <p>{{speaker.bio | safe}}</p>
+                    {{speaker.bio | safe}}
                   {% endif %}
                 </div>
               {% endfor %}
