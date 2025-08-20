@@ -63,6 +63,7 @@ h3 {
 
   @include mobile {
     font-size: 3.33rem;
+    line-height: 3.33rem;
   }
 }
 
@@ -89,7 +90,7 @@ h5 {
   }
 }
 
-p {
+p, td {
   color: $blue-600;
   font-weight: 300;
   font-size: 1.5rem;

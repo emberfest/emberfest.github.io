@@ -134,6 +134,7 @@
        
           .title {
             font-size: 1rem;
+            font-weight: 700;
             
             @include md {
               font-size: 1.25rem;
@@ -392,7 +393,6 @@
     
       h3 {
         text-align: left;
-        margin: 0;
         text-wrap: balance; 
       }
       
@@ -434,7 +434,10 @@
       }
     
       tr {
-        padding: 20px 0;
+        padding: 40px 0;
+        @include ssm {
+          padding: 20px 0;
+        }
         letter-spacing: 0;
         word-break: break-word;
         display: flex;
@@ -450,15 +453,13 @@
         }
         
         td {
-          font-size: 18px;
-          line-height: 24px;
           display: flex;
           flex-direction: column;
           gap: 20px;
           align-items: start;
+          font-weight: 700;
           
           @include md {
-            font-size: 22px;
             line-height: 28px;
           }
         }
@@ -506,8 +507,16 @@
         }
 
         .speaker-avatar {
-          width: auto;
+          width: 6rem;
+          height: 6rem;
           margin-bottom: 0;
+          align-items: baseline;
+
+          @include ssm {
+            width: inherit;
+            height: inherit;
+            align-items: inherit;
+          }
         }
 
         .photo {
@@ -537,15 +546,22 @@
           }
   
           p {
-            font-size: 1.3rem;
-            line-height: 1.9rem;
+            @include lg {
+              font-size: 1.25rem;
+              line-height: 2.4rem;
+            }
           }
     
           .speaker-info {
-            flex-direction: row;
+            flex-direction: column;
             display: flex;
-            align-items: center;
+            align-items: left;
             gap: 20px;
+
+            @include ssm {
+              flex-direction: row;
+              align-items: center;
+            }
         
             .speaker-details {
               display: flex;

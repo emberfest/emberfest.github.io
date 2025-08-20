@@ -11,7 +11,7 @@ title: EmberFest – Schedule day 2
   <section class="full-schedule-day">
     <div class="title content">
       <div class="day-date">
-        <h3 class="day">Schedule: {{ day.label }}</h3>
+        <h3 class="day mb-6">Schedule: {{ day.label }}</h3>
         <h5>{{ day.weekday }}, {{ day.date }}</h5>
       </div>
       <a
@@ -51,27 +51,27 @@ title: EmberFest – Schedule day 2
                       <div class="speaker-name">{{speaker.name}}</div>
                         <div class="speaker-links">
                           {% if speaker.twitter %}
-                          <a href="{{ speaker.twitter }}" class="speaker-link" aria-label="X">
+                          <a href="https://www.x.com/{{ speaker.twitter }}" class="speaker-link" target="_blank" aria-label="X">
                             <img src="/images/icons/twitter.svg" alt="X" />
                           </a>
                           {% endif %}
                           {% if speaker.url %}
-                          <a href="{{ speaker.url }}" class="speaker-link" aria-label="Website">
+                          <a href="{{ speaker.url }}" class="speaker-link" target="_blank" aria-label="Website">
                             <img src="/images/icons/link.svg" alt="Website" />
                           </a>
                           {% endif %}
                           {% if speaker.bluesky %}
-                          <a href="{{ speaker.bluesky }}" class="speaker-link" aria-label="Bluesky">
+                          <a href="{{ speaker.bluesky }}" class="speaker-link" target="_blank" aria-label="Bluesky">
                             <img src="/images/icons/bluesky.svg" alt="Bluesky" />
                           </a>
                           {% endif %}
                           {% if speaker.mastodon %}
-                          <a href="{{ speaker.mastodon }}" class="speaker-link" aria-label="Mastodon">
+                          <a href="{{ speaker.mastodon }}" class="speaker-link" target="_blank" aria-label="Mastodon">
                             <img src="/images/icons/mastodon.svg" alt="Mastodon" />
                           </a>
                           {% endif %}
                           {% if speaker.github %}
-                          <a href="{{ speaker.github }}" class="speaker-link" aria-label="Github">
+                          <a href="{{ speaker.github }}" class="speaker-link" target="_blank" aria-label="Github">
                             <img src="/images/icons/github.svg" alt="Github" />
                           </a>
                           {% endif %}

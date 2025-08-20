@@ -18,8 +18,7 @@
                   <td class="title">
                     {{slot.label}}
                     {% if slot.speakers and slot.hideSpeakers != true %}
-                      –
-                      {% for speaker in slot.speakers %}<span class="speaker">{% if forloop.index > 1 %}, {% endif %}{{speaker.name}}</span>{% endfor %}
+                      {% for speaker in slot.speakers %}<span class="speaker"> – {% if forloop.index > 1 %}, {% endif %}{{speaker.name}}</span>{% endfor %}
                     {% endif %}
                   </td>
                 </tr>
