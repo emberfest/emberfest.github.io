@@ -434,10 +434,7 @@
       }
     
       tr {
-        padding: 40px 0;
-        @include ssm {
-          padding: 20px 0;
-        }
+        padding: 3rem 0;
         letter-spacing: 0;
         word-break: break-word;
         display: flex;
@@ -447,7 +444,6 @@
         border-bottom: 6px dotted white;
     
         @include md {
-          padding: 3rem 0;
           gap: 40px;
           flex-direction: row;
         }
