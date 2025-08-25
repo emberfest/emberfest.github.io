@@ -10,7 +10,8 @@
 
 - name: "Chris Thoburn"
   avatar: "chris-thoburn.jpg"
-  twitter: "https://twitter.com/not_runspired"
+  bluesky: "https://bsky.app/profile/runspired.com"
+  github: "https://github.com/runspired"
   web: "https://www.linkedin.com/in/runspired/"
 
 - name: "Krystan HuffMenne"
