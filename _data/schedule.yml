@@ -46,7 +46,7 @@
       label: "Lunch"
 
     - time: "13:30&mdash;14:00"
-      label: "WarpDrive: TBA"
+      label: "WarpDrive | The Making of a Polaris Application"
       description: >
       speakers:
         - name: "Chris Thoburn (aka. runspired)"
@@ -110,7 +110,6 @@
         - name: "Marine Dunstetter"
           image: "/images/speakers/marine-dunstetter.jpg"
 
-
     - time: "17:30&mdash;18:00"
       label: "WarpDrive Workshop"
       description: >
@@ -145,7 +144,7 @@
             <p>When she needs a break, Melanie enjoys brainstorming new collective nouns for the web (collective-nouns.dev) or unwinding with a game of Stardew Valley.</p>
 
     - time: "10:45&mdash;11:15"
-      label: "WarpDrive: TBA"
+      label: "WarpDrive: Set Data to Stun"
       description: >
       speakers:
         - name: "Krystan HuffMenne"
@@ -169,7 +168,7 @@
       label: "Lunch"
 
     - time: "13:30&mdash;14:00"
-      label: "TBA"
+      label: "Everywhere – there are no limits"
       description: >
         <p></p>
       speakers:
