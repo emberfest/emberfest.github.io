@@ -100,7 +100,18 @@
           bio: >
             <p>I’m Aoife! I’m the Director of Engineering at Phorest, I feel like an imposter now at EmberFest since I’m no longer hands-on, but I promise I was, and always will be at heart, an Ember dev! I’m from Dublin, Ireland. Lover of food, travel and good craic.</p>
 
-    - time: "16:45&mdash;18:00"
+    - time: "16:45&mdash;17:15"
+      label: "tba"
+      description: >
+        <p></p>
+      speakers:
+        - name: "Chris Manson"
+          image: "/images/speakers/chris-manson.jpg"
+        - name: "Marine Dunstetter"
+          image: "/images/speakers/marine-dunstetter.jpg"
+
+
+    - time: "17:30&mdash;18:00"
       label: "WarpDrive Workshop"
       description: >
         <p>TBA</p>
