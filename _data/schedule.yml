@@ -103,14 +103,21 @@
             <p>I’m Aoife! I’m the Director of Engineering at Phorest, I feel like an imposter now at EmberFest since I’m no longer hands-on, but I promise I was, and always will be at heart, an Ember dev! I’m from Dublin, Ireland. Lover of food, travel and good craic.</p>
 
     - time: "16:45&mdash;17:15"
-      label: "tba"
+      label: "Unlocking Ember’s future with the Ember Initiative"
       description: >
-        <p></p>
+        <p>Over the past two years, Ember has transformed into a modern future-proof framework using the latest tools in the ecosystem. Lightning-fast rebuilds, intuitive single-file components, and native TypeScript support... We'll present you what technologies modern Ember relies on and how to adopt them as soon as possible.</p>
+        <p>Then we'll pull back the curtain on the Ember Initiative: the new funding model behind Ember's rapid evolution. We'll tell you everything about the Initiative, what kind of hard problems it solves for the community, and how to join it!</p>
       speakers:
         - name: "Chris Manson"
           image: "/images/speakers/chris-manson.jpg"
+          url: "https://bsky.app/profile/chris.manson.ie"
+          bio: >
+            <p>Senior Developer @mainmatter.com. @emberjs.com Core Learning and Tooling Team member. Created Empress http://github.com/empress. Created Lint to the Future https://github.com/mansona/lint-to-the-future. Big fan of Open Source!</p>
         - name: "Marine Dunstetter"
           image: "/images/speakers/marine-dunstetter.jpg"
+          url: "https://linkedin.com/in/mdunstetter"
+          bio: >
+            <p>Senior Developer @mainmatter.com. Frontend developer most of the time, but also illustrator, indie writer (L'Académie des Renards), and pragmatic dreamer with cats and a biodiversity-friendly garden.</p>
 
     - time: "17:30&mdash;18:00"
       label: "WarpDrive Workshop"
