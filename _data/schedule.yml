@@ -48,10 +48,12 @@
     - time: "13:30&mdash;14:00"
       label: "WarpDrive | The Making of a Polaris Application"
       description: >
+        <p>When WarpDrive (Universal EmberData) was announced, we didn't just establish a new data paradigm—we commissioned a starship capable of boldly going where no framework has gone before. Our five-year mission: to work equally well with or without any framework, with or without a DOM, in any JS runtime, with standard build tools, and even with any version of Ember.</p>
+        <p>Join us as we explore what it truly means to build a Polaris Application — one that can navigate by the North Star of stability while maintaining the agility to explore strange new APIs, seek out new build tools and development paradigms, and boldly ship where no developer has shipped before.</p>
       speakers:
         - name: "Chris Thoburn (aka. runspired)"
           image: "/images/speakers/chris-thoburn.jpg"
-          twitter: "still_runspired"
+          bluesky: "https://bsky.app/profile/runspired.com"
           url: "https://runspired.com"
           bio: >
             <p>Chris is a Senior Staff Software Engineer at AuditBoard and long-term EmberData/WarpDrive team member. He’s also a mountain/ultra/trail runner.</p>
@@ -117,7 +119,7 @@
       speakers:
         - name: "Chris Thoburn (aka. runspired)"
           image: "/images/speakers/chris-thoburn.jpg"
-          twitter: "still_runspired"
+          bluesky: "https://bsky.app/profile/runspired.com"
           url: "https://runspired.com"
           bio: >
             <p>Chris is a Senior Staff Software Engineer at AuditBoard and long-term EmberData/WarpDrive team member. He’s also a mountain/ultra/trail runner.</p>
@@ -136,7 +138,7 @@
       speakers:
         - name: "Melanie Sumner"
           image: "/images/speakers/melanie-sumner.jpg"
-          twitter: "a11ymel"
+          bluesky: "https://bsky.app/profile/a11ymel.bsky.social"
           url: "https://www.linkedin.com/in/melaniesumner"
           bio: >
             <p>Melanie Sumner began building things for the web in 1997, and after all these years, it’s still her favorite thing to do. As the Product Accessibility Lead at HashiCorp, she develops accessibility strategies and offers guidance to the design system and product teams, working collaboratively to deliver inclusive, standards-compliant products.</p>
@@ -146,6 +148,8 @@
     - time: "10:45&mdash;11:15"
       label: "WarpDrive: Set Data to Stun"
       description: >
+        <p>Discover WarpDrive, the next-generation data framework that brings universal compatibility and performance to ambitious web applications.</p>
+        <p>This talk explores WarpDrive's schema-driven architecture through building a real application, demonstrating how to boldly go where your data has never gone before with a truly framework-agnostic layer. Learn how WarpDrive's TypeScript-first approach delivers enterprise-grade features while eliminating traditional data management complexity.</p>
       speakers:
         - name: "Krystan HuffMenne"
           image: "/images/speakers/krystan-huffmene.jpg"
@@ -170,7 +174,7 @@
     - time: "13:30&mdash;14:00"
       label: "Everywhere – there are no limits"
       description: >
-        <p></p>
+        <p>With enough willpower, you can use ember wherever you can imagine. Here will be what you need to know (and some examples) for moving beyond web apps.</p>
       speakers:
         - name: "Preston Sego (aka. nullvoxpopuli)"
           image: "/images/speakers/l-preston-sego-iii.png"
@@ -240,7 +244,7 @@
       speakers:
         - name: "Edward Faulkner"
           image: "/images/speakers/edward-faulkner.jpeg"
-          twitter: "eaf4"
+          bluesky: "https://bsky.app/profile/eaf4.com"
           url: "https://www.linkedin.com/in/edwardfaulkner/"
           bio: >
             <p>
