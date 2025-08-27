@@ -1,12 +1,12 @@
 - name: "Edward Faulkner"
   avatar: "edward-faulkner.jpeg"
-  twitter: "https://twitter.com/eaf4"
   web: "https://www.linkedin.com/in/edwardfaulkner/"
+  bluesky: "https://bsky.app/profile/eaf4.com"
 
 - name: "Melanie Sumner"
   avatar: "melanie-sumner.jpg"
-  twitter: "https://twitter.com/a11ymel"
   web: "https://www.linkedin.com/in/melaniesumner"
+  bluesky: "https://bsky.app/profile/a11ymel.bsky.social"
 
 - name: "Chris Thoburn"
   avatar: "chris-thoburn.jpg"
@@ -33,6 +33,3 @@
   avatar: "marine-dunstetter.jpg"
   mastodon: "https://mastodon.social/@BlueCut"
   github: "https://github.com/BlueCutOfficial"
-
-
-
