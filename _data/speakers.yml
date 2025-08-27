@@ -2,6 +2,11 @@
   avatar: "edward-faulkner.jpeg"
   twitter: "https://twitter.com/eaf4"
   web: "https://www.linkedin.com/in/edwardfaulkner/"
+- name: "Yehuda Katz"
+  avatar: "yehuda-katz.jpeg"
+  web: "https://www.linkedin.com/in/yehudakatz/"
+  twitter: "https://x.com/wycats"
+  bluesky: https://bsky.app/profile/wycats.bsky.social
 
 - name: "Melanie Sumner"
   avatar: "melanie-sumner.jpg"
