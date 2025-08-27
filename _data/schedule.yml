@@ -12,6 +12,7 @@
         - name: "Yehuda Katz"
           image: "/images/speakers/yehuda-katz.jpeg"
           twitter: "wycats"
+          bluesky: https://bsky.app/profile/wycats.bsky.social
           url: "https://www.linkedin.com/in/yehudakatz/"
           bio: >
             <p>Yehuda is a member of the Ember.js, Ruby on Rails and jQuery Core Teams; his 9-to-5 home is at the startup he founded, Tilde Inc, where he works on Skylight, the smart profiler for Rails. Yehuda spends most of his time hacking on open source—his main projects, along with others, like Thor, Handlebars and Janus—and traveling the world doing open source evangelism work.</p>
@@ -139,9 +140,10 @@
       label: "Doors open & Breakfast"
 
     - time: "10:00&mdash;10:30"
-      label: "Keynote"
+      label: "Layers of Accessibility for Scale & Profit"
       description: >
-        <p>TBA</p>
+        <p>Perhaps you’ve heard the assertion that design systems can’t claim to be accessible. While that might be technically accurate for various reasons, in this talk we’ll examine ways product accessibility can be implemented at scale through different “layers” of accessibility support.</p>
+        <p>Then we’ll explore some ways that you can help your teams align for better design, accessibility, and reliability. No matter where you or your company is in your accessibility journey, focus can remain on progress, not perfection.</p>
       speakers:
         - name: "Melanie Sumner"
           image: "/images/speakers/melanie-sumner.jpg"
