@@ -159,7 +159,9 @@
           image: "/images/speakers/krystan-huffmene.jpg"
           url: "https://www.linkedin.com/in/krystanhm/"
           bio: >
-            <p></p>
+            <p>
+              Krystan is a Staff Engineer at AuditBoard and member of the EmberData/WarpDrive & Tooling Teams. She's been building Ember applications since v2 and is a mother of two living in Portland, Oregon.
+            </p>
 
     - time: "11:30&mdash;12:00"
       label: "Lies, Damned Lies, and Virtual Modules"
