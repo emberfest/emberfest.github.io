@@ -5,16 +5,8 @@
 }
 
 .content-layout {
-  display: grid;
   gap: 4rem;
-  @include xl {
-    grid-template-columns: auto min(700px, 50%);
-  }
-  
-  img {
-    max-width: min(70vw, 700px);
-    margin: auto;
-  }
+
 }
 
 .date {
@@ -32,7 +24,7 @@
   }
 
   p {
-    text-align: left;
+    text-align: center;
   }
 
   .dark-blue {
