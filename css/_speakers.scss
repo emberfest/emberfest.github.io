@@ -65,26 +65,16 @@
   @media (max-width: 600px) {
     margin-bottom: 0;
   }
-  &--blue {
-    .speaker-link{
-      background: $blue-300;
+  
+  .speaker-link{
+    background: $blue-300;
 
-      &:hover,
-      &:active {
-        background: $blue-400;
-      }
-    }
-  }
-  &--orange {
-    .speaker-link{
-      background: $orange;
-    
     &:hover,
     &:active {
-      background: $brown;
-    }
+      background: $blue-400;
     }
   }
+  
 }
 
 .speaker-avatar {
@@ -104,6 +94,7 @@
   justify-content: center;
 
   img {
+    filter: grayscale(100);
     width: 100%;
     height: 100%;
     object-fit: cover;
