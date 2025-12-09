@@ -6,10 +6,15 @@
 
 .content-layout {
   gap: 4rem;
-
 }
 
 .date {
+  display: block;
+  text-align: center;
+}
+
+.city {
+  display: block;
   text-align: center;
 }
 
@@ -28,7 +33,7 @@
   }
 
   .dark-blue {
-    color: #195BCE;
+    color: #195bce;
   }
 }
 
@@ -45,4 +50,3 @@
     margin-right: 5%;
   }
 }
-
