@@ -1,11 +1,11 @@
 <section id="sponsors" class="sponsors container mb-16">
-	<h3 class="mb-9">Past Sponsors</h3>
-  <div class="sponsor-section-wrapper">
-    <ul class="sponsors-list">
+	<div class="sponsor-section-wrapper sponsor-section-wrapper__partners">
+    <h4 class="my-9">Past sponsors</h4>
+    <ul class="sponsors-list sponsors-partners mb-9">
       {% for sponsor in site.data.past-sponsors %}
       <li>
-        <a href="{{ sponsor.link }}">
-          <img src="/2023/images/past-sponsors/{{sponsor.logo}}.svg" />
+        <a href="{{ sponsor.link }}" target="_blank">
+          <img src="/images/past-sponsors/{{sponsor.logo}}" />
         </a>
       </li>
       {% endfor %}

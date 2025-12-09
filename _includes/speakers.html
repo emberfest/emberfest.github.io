@@ -1,9 +1,9 @@
 <section class="speakers-section">
   <div class="speakers-divider-top"></div>
   <div class="past-speakers mb-9">
-    <h4 class="mb-9">Speakers</h4>
+    <h4 class="mb-9">Past speakers</h4>
     <ul class="speakers-list container">
-      {% for speaker in site.data.speakers %}
+      {% for speaker in site.data.past-speakers %}
       {%- assign mod = forloop.index0 | modulo: 2 -%}
       {% if mod == 0 %}
       {% assign color = 'blue' %}
@@ -12,7 +12,7 @@
       {% endif %}
       <li class="speaker-card speaker-card--{{ color }}">
         <div class="speaker-avatar">
-          <img src="/images/speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}" />
+          <img src="/images/past-speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}" />
         </div>
         <div class="speaker-name">{{ speaker.name }}</div>
         <div class="speaker-links">

@@ -5,19 +5,16 @@
 }
 
 .content-layout {
-  display: grid;
   gap: 4rem;
-  @include xl {
-    grid-template-columns: auto min(700px, 50%);
-  }
-  
-  img {
-    max-width: min(70vw, 700px);
-    margin: auto;
-  }
 }
 
 .date {
+  display: block;
+  text-align: center;
+}
+
+.city {
+  display: block;
   text-align: center;
 }
 
@@ -32,11 +29,11 @@
   }
 
   p {
-    text-align: left;
+    text-align: center;
   }
 
   .dark-blue {
-    color: #195BCE;
+    color: #195bce;
   }
 }
 
@@ -53,4 +50,3 @@
     margin-right: 5%;
   }
 }
-
