@@ -4,6 +4,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: $blue-200;
+}
+
+.sponsors-divider-bottom {
+  background-image: url(/images/backgrounds/sponsors-bottom-bkg.svg);
+  background-size: cover;
+  height: 2.5rem;
 }
 
 .sponsor-section-wrapper {
@@ -15,7 +22,7 @@
   li a {
     filter: $shadow;
     padding: 1.5rem 3rem;
-    background-color: white;
+    background-color: $beige;
     border-radius: 9999px;
     text-align: center;
     display: flex;

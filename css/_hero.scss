@@ -11,6 +11,7 @@
 .date {
   display: block;
   text-align: center;
+  font-weight: 700;
 }
 
 .city {
@@ -32,8 +33,12 @@
     text-align: center;
   }
 
-  .dark-blue {
-    color: #195bce;
+  .hero-logo {
+    color: $cream;
+  }
+
+  .blue {
+    color: $blue-300;
   }
 }
 

@@ -1,12 +1,12 @@
 header {
   padding-top: 1rem;
-  background: $white;
+  background: $cream;
+  color: $blue-400;
 }
 
 .header-divider {
-  background-image: url(/images/backgrounds/header-bkg.png);
-  background-repeat: repeat-x;
-  background-size: contain;
+  background-image: url(/images/backgrounds/header-bkg.svg);
+  background-size: cover;
   height: 2.5rem;
 }
 
