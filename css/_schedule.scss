@@ -40,7 +40,7 @@
 
 
     tbody {
-      color: $blue-500;
+      color: $blue-600;
     }
 
     .btn-primary {
@@ -426,10 +426,10 @@
   
     table {
       width: 100%;
-      color: $blue-500;
+      color: $blue-600;
   
       a {
-        color: $blue-500;
+        color: $blue-600;
         text-decoration: underline;
       }
     
@@ -571,7 +571,7 @@
             }
 
             .speaker-link:hover {
-              background: $blue-500;
+              background: $blue-600;
             }
     
           }
@@ -580,16 +580,16 @@
 
       tr:nth-child(odd) {
         .photo {
-          background-color: $blue-500;
+          background-color: $blue-600;
         }
 
         .speaker-info {
           .speaker-link {
-              background: $blue-500;
+              background: $blue-600;
             }
 
             .speaker-link:hover {
-              background: $blue-500;
+              background: $blue-600;
             }
           }
         }

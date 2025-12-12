@@ -1,9 +1,9 @@
 .footer-divider {
-  background-image: url(/images/backgrounds/footer-bkg.png);
-  background-repeat: repeat-x;
-  background-size: contain;
+  background-image: url(/images/backgrounds/footer-bkg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 2.5rem;
-  background-color: $blue-500;
+  background-color: $olive;
 }
 
 footer {
