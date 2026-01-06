@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  background-color: $blue-200;
+  background-color: $scotch-grey;
 }
 
 .img-responsive {
@@ -33,9 +33,9 @@ body {
 }
 
 a:hover {
-  color: $orange;
+  color: $blue-600;
   text-decoration: underline;
-  text-decoration-color: $orange;
+  text-decoration-color: $blue-600;
 }
 
 .container {

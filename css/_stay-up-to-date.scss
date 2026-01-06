@@ -1,21 +1,19 @@
 .stay-up-to-date-divider {
-  background-image: url(/images/backgrounds/speakers-top-bkg.png);
-  background-repeat: repeat-x;
-  background-size: contain;
+  background-image: url(/images/backgrounds/sponsors-bottom-bkg.svg);
+  background-size: cover;
+  background-color: $blue-200;
   height: 2.5rem;
 }
 
 .stay-up-to-date-section {
   h4 {
     text-wrap: balance;
-    color: $blue-300;
   }
-  
 
   display: flex;
   gap: 5rem;
   flex-direction: column;
-  background: $blue-050;
+  background: $olive;
   text-align: center;
 
   form {
@@ -41,7 +39,7 @@
       padding: 1.5rem 2rem;
       border: none;
       border-radius: 3rem;
-      background: #fff;
+      background: $beige;
       filter: $shadow;
       color: $blue-600;
       font-weight: 400;
@@ -50,7 +48,7 @@
       transition: box-shadow 0.2s;
 
       &::placeholder {
-        color: $blue-300;
+        color: $blue-400;
         font-weight:400;
       }
 

@@ -429,7 +429,7 @@
       color: $blue-600;
   
       a {
-        color: $orange;
+        color: $blue-600;
         text-decoration: underline;
       }
     
@@ -571,7 +571,7 @@
             }
 
             .speaker-link:hover {
-              background: $blue-500;
+              background: $blue-600;
             }
     
           }
@@ -580,16 +580,16 @@
 
       tr:nth-child(odd) {
         .photo {
-          background-color: $orange;
+          background-color: $blue-600;
         }
 
         .speaker-info {
           .speaker-link {
-              background: $orange;
+              background: $blue-600;
             }
 
             .speaker-link:hover {
-              background: $brown;
+              background: $blue-600;
             }
           }
         }

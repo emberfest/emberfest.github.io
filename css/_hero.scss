@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: url("/images/clouds.svg") no-repeat top 20px right 0px;
+  background-size: 20vw;
 }
 
 .content-layout {
@@ -11,6 +13,7 @@
 .date {
   display: block;
   text-align: center;
+  font-weight: 700;
 }
 
 .city {
@@ -32,8 +35,12 @@
     text-align: center;
   }
 
-  .dark-blue {
-    color: #195bce;
+  .hero-logo {
+    color: $cream;
+  }
+
+  .blue {
+    color: $blue-300;
   }
 }
 

@@ -3,7 +3,7 @@
         font-family: postino-std, serif;
         font-weight: 400;
         font-style: normal;
-        color: #195BCE;
+        color: $blue-400;
     }
 
     .navigation {
@@ -19,6 +19,11 @@
 }
 
 .sidepage +.footer-divider {
-    background-color: $blue-200; 
+    background-color: $scotch-grey; 
   }
   
+.sidepage {
+     h4 {
+        color: revert;
+    }
+}

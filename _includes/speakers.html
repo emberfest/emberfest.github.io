@@ -1,14 +1,14 @@
 <section class="speakers-section">
   <div class="speakers-divider-top"></div>
-  <div class="past-speakers mb-9">
+  <div class="past-speakers mb-4">
     <h4 class="mb-9">Past speakers</h4>
     <ul class="speakers-list container">
       {% for speaker in site.data.past-speakers %}
       {%- assign mod = forloop.index0 | modulo: 2 -%}
       {% if mod == 0 %}
-      {% assign color = 'blue' %}
+      {% assign color = 'green' %}
       {% else %}
-      {% assign color = 'orange' %}
+      {% assign color = 'blue' %}
       {% endif %}
       <li class="speaker-card speaker-card--{{ color }}">
         <div class="speaker-avatar">
@@ -53,5 +53,4 @@
       Submit a Talk
     </a>
   -->
-  <div class="speakers-divider-bottom"></div>
 </section>
