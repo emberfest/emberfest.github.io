@@ -15,7 +15,9 @@
 
   button,
   a {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     vertical-align: middle;
     width: 20rem;
     color: $blue-400;
@@ -44,6 +46,7 @@
 
     &:hover {
       color: $blue-600;
+      text-decoration: none;
     }
   }
 
