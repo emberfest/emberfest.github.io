@@ -25,3 +25,5 @@ vendor/ruby
 
 # VS Code
 .vscode
+
+/vendor/bundle/
