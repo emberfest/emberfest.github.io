@@ -4,21 +4,18 @@
   justify-items: center;
   gap: 3rem;
 
-  background-color: white;
   padding: 6rem;
   @include tablet {
     padding: 6rem 2rem;
   }
   border-radius: 2rem;
-  background-image: url('/images/backgrounds/venue-border.svg');
   background-size: cover;
-  background-position: center;
   position: relative;
   text-wrap: balance;
   &.container {
-    margin-bottom: -15rem;
     max-width: 60rem;
-
+    text-align: center;
+    
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
     gap: 2rem;
@@ -29,8 +26,8 @@
     }
 
     @include small-desktop {
-      margin-left: 5%;
-      margin-right: 5%;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 
@@ -71,4 +68,15 @@
   @include xl {
     margin: inherit;
   }
+}
+
+.venue-divider-top {
+  background-image: url(/images/backgrounds/venue-top-bkg.svg);
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 2.5rem;
+}
+
+.venue-details{
+  min-width: -webkit-fill-available;
 }
