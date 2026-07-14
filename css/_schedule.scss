@@ -19,6 +19,13 @@
   text-align: left;
 }
 
+.schedule-divider-top {
+  background-image: url(/images/backgrounds/venue-top-bkg.svg);
+  background-repeat: repeat-x;
+  background-size: cover;
+  height: 2.5rem;
+}
+
 .time {
   white-space: nowrap;
   padding-right: 1rem;
@@ -38,6 +45,10 @@
      display: flex;
      flex-direction: column;
 
+    .schedule-decoration {
+      width: min(75%, 32rem);
+      height: auto;
+    }
 
     tbody {
       color: $blue-600;
@@ -45,16 +56,22 @@
 
     .btn-primary {
       @include lg {
-      scale: 0.6;}
-    
+        scale: 0.6;
+
+        &:hover,
+        &:active {
+          scale: 0.63;
+        }
+      }
+
       & a {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
       }
     }
-  
+
     .speaker {
         display: inline;
     }
@@ -159,7 +176,6 @@
       }
     }
   }
-  
   @import "./mixins.scss";
   
   .generic-block.full-schedule {
@@ -596,4 +612,3 @@
 
     }
   }
-  

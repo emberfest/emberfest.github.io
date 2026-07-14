@@ -1,6 +1,6 @@
 - label: "Day 1"
   weekday: "Thursday"
-  date: "September 18"
+  date: "September 17"
   slots:
     - time: "09:00&mdash;10:00"
       label: "Doors open & Breakfast"
@@ -129,7 +129,7 @@
 
 - label: "Day 2"
   weekday: "Friday"
-  date: "September 19"
+  date: "September 18"
   slots:
     - time: "09:00&mdash;10:00"
       label: "Doors open & Breakfast"
