@@ -539,6 +539,17 @@
             height: 8rem;
             background-size: 100%;
         }
+
+        .photo--initials {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            filter: none;
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            color: $white;
+        }
         
         .speaker {
           display: flex;
@@ -597,6 +608,11 @@
       tr:nth-child(odd) {
         .photo {
           background-color: $blue-600;
+        }
+
+        // initials stay on blue — they're unreadable on the dark row colour
+        .photo--initials {
+          background-color: $blue-300;
         }
 
         .speaker-info {
