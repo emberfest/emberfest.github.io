@@ -1,6 +1,6 @@
-
+<div class="schedule-divider-top"></div>
 <section class="schedule" id="schedule">
-    <img class="mt-8 mobile-75 desktop-25" src="/images/stamp.svg" alt="" />
+    <img class="schedule-decoration mt-8" src="/images/horse-buggy.svg" alt="" />
     <h3 class="mt-6 mb-4">Schedule</h3>
     <div class="data">
       {% for day in site.data.schedule %}
@@ -8,7 +8,7 @@
           <div class="content">
             <h4>{{day.label}}</h4>
             <p class="day-info">{{day.weekday}}, {{day.date}}</p>
-            <p class="timezones-note">Times are local to Brussels (CEST)</p>
+            <p class="timezones-note">Times are local to Prague (CEST)</p>
             <table>
               {% for slot in day.slots %}
                 <tr>
@@ -36,4 +36,3 @@
       {% endfor %}
     </div>
   </section>
-  

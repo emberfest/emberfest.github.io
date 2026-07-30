@@ -19,12 +19,19 @@
   text-align: left;
 }
 
+.schedule-divider-top {
+  background-image: url(/images/backgrounds/venue-top-bkg.svg);
+  background-repeat: repeat-x;
+  background-size: cover;
+  height: 2.5rem;
+}
+
 .time {
   white-space: nowrap;
   padding-right: 1rem;
   width: 10%;
   font-size: 1rem;
-  color: #195BCE;
+  color: $blue-400;
   font-weight: 300;
 
   @include md {
@@ -38,6 +45,10 @@
      display: flex;
      flex-direction: column;
 
+    .schedule-decoration {
+      width: min(75%, 32rem);
+      height: auto;
+    }
 
     tbody {
       color: $blue-600;
@@ -45,16 +56,22 @@
 
     .btn-primary {
       @include lg {
-      scale: 0.6;}
-    
+        scale: 0.6;
+
+        &:hover,
+        &:active {
+          scale: 0.63;
+        }
+      }
+
       & a {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
       }
     }
-  
+
     .speaker {
         display: inline;
     }
@@ -159,7 +176,6 @@
       }
     }
   }
-  
   @import "./mixins.scss";
   
   .generic-block.full-schedule {
@@ -523,6 +539,17 @@
             height: 8rem;
             background-size: 100%;
         }
+
+        .photo--initials {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            filter: none;
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            color: $white;
+        }
         
         .speaker {
           display: flex;
@@ -583,6 +610,11 @@
           background-color: $blue-600;
         }
 
+        // initials stay on blue — they're unreadable on the dark row colour
+        .photo--initials {
+          background-color: $blue-300;
+        }
+
         .speaker-info {
           .speaker-link {
               background: $blue-600;
@@ -596,4 +628,3 @@
 
     }
   }
-  

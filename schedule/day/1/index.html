@@ -38,15 +38,14 @@ title: EmberFest – Schedule day 1
               {% for speaker in slot.speakers %}
                 <div class="speaker">
                   <div class="speaker-info">
-                    {%if speaker.image %}
                     <div class="speaker-avatar">
+                      {% if speaker.image %}
                       <div class="photo" style="background-image:url({{ speaker.image }})"></div>
-                    {% else %}
-                      <img
-                        class="photo"
-                        src="/images/logo_vertical.svg">
-                    {% endif %}
-                  </div>
+                      {% else %}
+                      {% assign nameParts = speaker.name | split: " " %}
+                      <div class="photo photo--initials" aria-hidden="true">{{ nameParts[0] | slice: 0 }}{{ nameParts[1] | slice: 0 }}</div>
+                      {% endif %}
+                    </div>
                     <div class="speaker-details">
                       <div class="speaker-name">{{speaker.name}}</div>
                         <div class="speaker-links">

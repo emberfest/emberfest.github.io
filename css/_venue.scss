@@ -1,33 +1,29 @@
-.venue {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  gap: 3rem;
-
-  padding: 6rem;
-  @include tablet {
-    padding: 6rem 2rem;
-  }
-  border-radius: 2rem;
+.venue-divider-top {
+  background-image: url(/images/backgrounds/sponsors-bottom-bkg.svg);
   background-size: cover;
+  height: 2.5rem;
+}
+
+.venue {
+  background: $olive;
+  color: $blue-500;
+  padding: 6rem 0;
   position: relative;
   text-wrap: balance;
-  &.container {
+
+  .venue-content {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
     max-width: 60rem;
     text-align: center;
-    
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
-    gap: 2rem;
 
     @include xl {
       max-width: 72rem;
       grid-template-columns: 1fr 1fr;
-    }
-
-    @include small-desktop {
-      margin-left: 0;
-      margin-right: 0;
     }
   }
 
@@ -44,7 +40,6 @@
       }
   }
 
-  filter: $shadow;
   .content {
     align-items: start;
   }
@@ -68,13 +63,6 @@
   @include xl {
     margin: inherit;
   }
-}
-
-.venue-divider-top {
-  background-image: url(/images/backgrounds/venue-top-bkg.svg);
-  background-repeat: repeat-x;
-  background-size: contain;
-  height: 2.5rem;
 }
 
 .venue-details{

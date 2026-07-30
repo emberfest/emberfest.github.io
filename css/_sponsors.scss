@@ -109,7 +109,8 @@
 .sponsors-divider-top {
   background-image: url(/images/backgrounds/venue-bottom-bkg.svg);
   background-repeat: repeat-x;
-  background-size: contain;
+  background-size: cover;
+  background-color: $blue-200;
   height: 2.5rem;
   width: 100%;
 }
