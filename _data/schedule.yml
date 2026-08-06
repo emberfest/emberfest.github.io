@@ -71,15 +71,14 @@
           url: "https://www.linkedin.com/in/luislorenteruiz/"
 
     - time: "15:00&mdash;15:30"
-      label: "To be announced"
+      label: "How complicated could a table be? A deep dive on the Helios AdvancedTable component"
+      description: >
+        <p>Tables, data grids, headless tables, kitchen tables… Just how many tables are there? Why is it so hard to style tables with CSS? Should you try to recreate Excel in a component? How many features can a table have and still be accessible? Tables are a foundation on the web. In technical, data-dense products like HashiCorp’s, they are mission-critical UIs. On the Helios Design Systems Team, we saw a growing demand for advanced functionality in our Table component. This kicked off a deeper exploration into what a table really is, ultimately leading to the creation of our new Advanced Table. The Advanced Table supports powerful features like resizable columns, keyboard navigation, and expandable rows—designed to be accessible from the beginning. In this talk, I’ll share how we approached the Advanced Table, what we learned, and how it is helping users get more value from their data.</p>
       speakers:
-        - name: "Melanie Sumner"
-          image: "/images/speakers/melanie-sumner.jpg"
-          bluesky: "https://bsky.app/profile/a11ymel.bsky.social"
-          url: "https://www.linkedin.com/in/melaniesumner"
+        - name: "Lee White"
+          image: "/images/speakers/lee-white.jpg"
           bio: >
-            <p>Melanie Sumner began building things for the web in 1997, and after all these years, it’s still her favorite thing to do. As the Product Accessibility Lead at HashiCorp, she develops accessibility strategies and offers guidance to the design system and product teams, working collaboratively to deliver inclusive, standards-compliant products.</p>
-            <p>In addition to her role at HashiCorp, Melanie is an invited expert for the W3C’s ARIA working group and co-editor of the Accessible Name and Description Computation specification, playing an active part in advancing web accessibility standards.</p>
+            <p>Lee is a Senior UX Engineer at HashiCorp/IBM, where she helps build the Helios Design System. She is passionate about scaling accessibility through design systems.</p>
 
     - time: "15:30&mdash;16:00"
       label: "Snack break"
