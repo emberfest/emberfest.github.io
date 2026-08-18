@@ -534,7 +534,8 @@
         .photo {
             width: 8rem;
             height: 8rem;
-            background-size: 100%;
+            background-size: cover;
+            background-position: center;
         }
 
         .photo--initials {
