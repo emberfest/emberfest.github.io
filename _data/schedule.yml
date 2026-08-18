@@ -58,6 +58,7 @@
         <p>If you’re maintaining a long-lived Ember app, or wondering whether you should rewrite yours, this talk offers a pragmatic perspective on how to evolve a codebase across multiple generations of framework ideas without starting from scratch.</p>
       speakers:
         - name: "Michal Bryxi"
+          image: "/images/speakers/michal-bryxi.jpeg"
           mastodon: "https://mastodon.world/@MichalBryxi"
 
     - time: "14:15&mdash;14:45"
@@ -68,6 +69,7 @@
         <p>Whether you’re preparing for your next interview, running them at your company, or just tired of the broken patterns the industry keeps repeating, you’ll leave with a clearer idea of what a good interview looks like — and the red flags that should send you running.</p>
       speakers:
         - name: "Luis Lorente"
+          image: "/images/speakers/luis-lorente.jpeg"
           url: "https://www.linkedin.com/in/luislorenteruiz/"
 
     - time: "15:00&mdash;15:30"
@@ -89,6 +91,7 @@
         <p>As agent-assisted coding gained momentum at Addepar, we were faced with a challenge: how do we get agents to build with modern Ember standards when our codebase contains so many outdated patterns? While Ember’s commitment to backwards compatibility and clear upgrade paths is a gift to humans, it also can be extremely confusing for autonomous agents. I’ll share the real-world steps we’ve taken to infuse guardrails into our 14 year old, 1.5 million line Ember codebase to make coding agents more productive, keep code quality high, and accelerate the modernization of our Ember enterprise monolith. Might we improve the codebase for human engineers in the process?</p>
       speakers:
         - name: "Kevin Pfefferle"
+          image: "/images/speakers/kevin-pfefferle.jpg"
           url: "https://www.linkedin.com/in/kevinpfefferle/"
 
     - time: "16:45&mdash;17:15"
@@ -141,6 +144,7 @@
         <p>We'll take a look at how I used broccoli 🥦 to build my extension for Chrome and how I switched to vite with plugins to target all the browsers...</p>
       speakers:
         - name: "Karel Bousson"
+          image: "/images/speakers/karel-bousson.jpeg"
           url: "https://www.linkedin.com/in/karelbousson"
 
     - time: "12:00&mdash;13:30"
