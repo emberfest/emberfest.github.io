@@ -164,7 +164,9 @@
             <p>After a brief stint in corporate finance, I was lucky to discover my true passion and able to make a full career switch to software development. I especially love building complex GUI software, as it provides a challenge right in the middle of UX design, performance-critical algorithms, and software architecture.</p>
 
     - time: "14:15&mdash;14:45"
-      label: "To be announced"
+      label: "What's going on?"
+      description: >
+        <p>An overview of everything I've noticed and am excited about from over the last year</p>
       speakers:
         - name: "Preston Sego (aka. nullvoxpopuli)"
           image: "/images/speakers/l-preston-sego-iii.png"
