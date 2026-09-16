@@ -24,8 +24,8 @@
         <ul class="sponsors-list sponsors-partners mb-9">
           {% for sponsor in site.data.sponsors.supporters %}
           <li>
-            <a href="{{ sponsor.link }}" target="_blank">
-              <img src="/images/sponsors/{{sponsor.logo}}" />
+            <a{% if sponsor.link %} href="{{ sponsor.link }}" target="_blank"{% endif %}>
+              <img src="/images/sponsors/{{sponsor.logo}}" alt="{{ sponsor.name }}" />
             </a>
           </li>
           {% endfor %}
